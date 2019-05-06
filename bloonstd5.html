@@ -1,0 +1,2103 @@
+<!doctype html>
+<html>
+<head>
+ 
+
+
+   <title>Bloons TD 5</title>
+
+ <link rel="stylesheet" href="css\w3.css">
+<link rel="stylesheet" href="css\blacktheme.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+</style>
+  </head>
+<body>
+  
+  
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-theme-l1"><img src="img\icon.ico" width="30" onbuttonclick:"alert('hi');"></a>
+    <a href="../index.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Home</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
+    <a href="../songs.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Songs</a>
+  </div>
+</div>
+
+//Sidebar
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <h4 class="w3-bar-item"><b>Menu</b></h4>
+  <a class="w3-bar-item w3-button w3-hover-black" href="bloonstd5.html">Bloons Tower Defence 5</a>
+    <a class="w3-bar-item w3-button w3-hover-black" href="#">Link</a>
+</nav>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  <div id="maingamecontent" style="width:2000px;height:1171px" >
+          <div id="flashframecontent" style="width: 1103px; height: 646px; visibility: visible;margin-left:250px">
+            <table class="game_table">
+              <tbody>
+                <tr>
+                   <td colspan="2" class="links_connect">
+                     <div class="user_connection hinted_value">
+                       <em class="logged_in_user mrs" style="display:none;">(<span class="logged_in_user_username"></span>)</em>
+                       <span id="chat_connected_indicator" class="spritegame spriteall" style="">Connected</span>
+                       <span id="chat_limited_connection_indicator" class="spritegame spriteall" style="display: none;">Limited connection</span>
+                       <span id="chat_disconnected_indicator" class="spritegame spriteall" style="display: none;">Disconnected</span>
+                     </div>
+                    
+<ul id="quicklinks">
+  <li id="cinematic_mode_quicklink" class="cinematic_link spritegame">
+    <a id="cinematic_mode_link" class="" href="#">Cinematic Mode</a>
+    <script type="text/javascript">
+//<![CDATA[
+      Event.observe(document, 'game:activated', function() { 
+        CinematicMode.hookUpCinematicQuicklink();
+      });
+
+//]]>
+</script>  </li>
+    <li class="instructions spritegame">
+      <a href="#" onclick="holodeck.revealFullInstructions(); return false;">Instructions</a>
+    </li>
+    <li id="quicklinks_star_ratings_block" class="rate my_rating"><span class="mrs">Rate:</span> <!--[if lte IE 7]><span class="inlinefix">.</span><![endif]--><span class="spinner spinner_inverse" id="quicklinks_rating-indicator" style="display:none" title="loading…">?</span><ul id="star-rating-151730" class="star-rating spritegame lbOn"> <!-- leave inline for IE -->
+
+  <li><a class="star-1" href="/ratings" onclick="if (      (function() {
+        if(!active_user.hasRequiredPlugins()){
+          var msg = 'You must have the Flash plugin installed to rate this game.'
+          $('rating_message').update(msg);
+          return false;
+        } else {
+          return true;
+        }
+      })()
+) { $$('#star-rating-151730').each(Element.hide); Element.show('quicklinks_rating-indicator');; new Ajax.Request(this.href, {asynchronous:true, evalScripts:true, onComplete:function(request){$$('#star-rating-151730 a').each(Element.show); Element.hide('quicklinks_rating-indicator'); holodeck.recordAnalyticsEvent('Quick', 'Rate');;}, parameters:&quot;prefix=quicklinks_\u0026rateable_id=151730\u0026rateable_type=Game\u0026rating=1\u0026star_rating_class=star-rating&quot; + '&amp;authenticity_token=' + encodeURIComponent('FaKp4GcBls6mnu+11AG30DfFmCtUlMikWaj/Xt3Yb6E=')}); }; return false;" title="Hated it">1</a></li>
+  <li><a class="star-2" href="/ratings" onclick="if (      (function() {
+        if(!active_user.hasRequiredPlugins()){
+          var msg = 'You must have the Flash plugin installed to rate this game.'
+          $('rating_message').update(msg);
+          return false;
+        } else {
+          return true;
+        }
+      })()
+) { $$('#star-rating-151730').each(Element.hide); Element.show('quicklinks_rating-indicator');; new Ajax.Request(this.href, {asynchronous:true, evalScripts:true, onComplete:function(request){$$('#star-rating-151730 a').each(Element.show); Element.hide('quicklinks_rating-indicator'); holodeck.recordAnalyticsEvent('Quick', 'Rate');;}, parameters:&quot;prefix=quicklinks_\u0026rateable_id=151730\u0026rateable_type=Game\u0026rating=2\u0026star_rating_class=star-rating&quot; + '&amp;authenticity_token=' + encodeURIComponent('FaKp4GcBls6mnu+11AG30DfFmCtUlMikWaj/Xt3Yb6E=')}); }; return false;" title="Didn't like it">2</a></li>
+  <li><a class="star-3" href="/ratings" onclick="if (      (function() {
+        if(!active_user.hasRequiredPlugins()){
+          var msg = 'You must have the Flash plugin installed to rate this game.'
+          $('rating_message').update(msg);
+          return false;
+        } else {
+          return true;
+        }
+      })()
+) { $$('#star-rating-151730').each(Element.hide); Element.show('quicklinks_rating-indicator');; new Ajax.Request(this.href, {asynchronous:true, evalScripts:true, onComplete:function(request){$$('#star-rating-151730 a').each(Element.show); Element.hide('quicklinks_rating-indicator'); holodeck.recordAnalyticsEvent('Quick', 'Rate');;}, parameters:&quot;prefix=quicklinks_\u0026rateable_id=151730\u0026rateable_type=Game\u0026rating=3\u0026star_rating_class=star-rating&quot; + '&amp;authenticity_token=' + encodeURIComponent('FaKp4GcBls6mnu+11AG30DfFmCtUlMikWaj/Xt3Yb6E=')}); }; return false;" title="Liked it">3</a></li>
+  <li><a class="star-4" href="/ratings" onclick="if (      (function() {
+        if(!active_user.hasRequiredPlugins()){
+          var msg = 'You must have the Flash plugin installed to rate this game.'
+          $('rating_message').update(msg);
+          return false;
+        } else {
+          return true;
+        }
+      })()
+) { $$('#star-rating-151730').each(Element.hide); Element.show('quicklinks_rating-indicator');; new Ajax.Request(this.href, {asynchronous:true, evalScripts:true, onComplete:function(request){$$('#star-rating-151730 a').each(Element.show); Element.hide('quicklinks_rating-indicator'); holodeck.recordAnalyticsEvent('Quick', 'Rate');;}, parameters:&quot;prefix=quicklinks_\u0026rateable_id=151730\u0026rateable_type=Game\u0026rating=4\u0026star_rating_class=star-rating&quot; + '&amp;authenticity_token=' + encodeURIComponent('FaKp4GcBls6mnu+11AG30DfFmCtUlMikWaj/Xt3Yb6E=')}); }; return false;" title="Really liked it">4</a></li>
+  <li><a class="star-5" href="/ratings" onclick="if (      (function() {
+        if(!active_user.hasRequiredPlugins()){
+          var msg = 'You must have the Flash plugin installed to rate this game.'
+          $('rating_message').update(msg);
+          return false;
+        } else {
+          return true;
+        }
+      })()
+) { $$('#star-rating-151730').each(Element.hide); Element.show('quicklinks_rating-indicator');; new Ajax.Request(this.href, {asynchronous:true, evalScripts:true, onComplete:function(request){$$('#star-rating-151730 a').each(Element.show); Element.hide('quicklinks_rating-indicator'); holodeck.recordAnalyticsEvent('Quick', 'Rate');;}, parameters:&quot;prefix=quicklinks_\u0026rateable_id=151730\u0026rateable_type=Game\u0026rating=5\u0026star_rating_class=star-rating&quot; + '&amp;authenticity_token=' + encodeURIComponent('FaKp4GcBls6mnu+11AG30DfFmCtUlMikWaj/Xt3Yb6E=')}); }; return false;" title="Loved it">5</a></li>
+</ul>
+
+</li>
+  <li class="favorite spritegame lbOn" id="quicklinks_favorite_block">
+    
+<a class="user_specific" href="/accounts/KongregateHolodeckTemplateUsername/favorites.js?game_id=151730" id="quicklinks_favorite_game" onclick="$('quicklinks_favorite_game_indicator').show(); holodeck.recordAnalyticsEvent('Quick', 'Favorite'); new Ajax.Request(this.href, {asynchronous:true, evalScripts:true, method:'post', parameters:'authenticity_token=' + encodeURIComponent('kq4nYcp96l9bFFwdI1XuH4WqXkkWQ44GKkyZSovoVN4=')}); return false;">Favorite</a>
+<span class="spinner spinner_inverse" id="quicklinks_favorite_game_indicator" style="display:none" title="loading…">?</span>
+<script type="text/javascript">
+//<![CDATA[
+      active_user.addCapturedSelector('#quicklinks_favorite_block', true);
+
+//]]>
+</script>
+
+  </li>
+  <li class="play_later lbOn" id="quicklinks_play_later_block" style="">
+    
+<a class="user_specific pln" href="/play_laters" id="quicklinks_play_later_game" onclick="$('quicklinks_play_later_game_indicator').show();; new Ajax.Request(this.href, {asynchronous:true, evalScripts:true, method:'post', onSuccess:function(request){$('quicklinks_play_later_game_indicator').hide();}, parameters:'game_id=151730' + '&amp;authenticity_token=' + encodeURIComponent('kq4nYcp96l9bFFwdI1XuH4WqXkkWQ44GKkyZSovoVN4=')}); return false;"><span aria-hidden="true" class="kong_ico default prs">p</span><span aria-hidden="true" class="kong_ico add prs">+</span><span aria-hidden="true" class="kong_ico remove prs">-</span>Playlist</a>
+<span class="spinner spinner_inverse" id="quicklinks_play_later_game_indicator" style="display:none" title="loading…">?</span>
+<script type="text/javascript">
+//<![CDATA[
+      active_user.addCapturedSelector('#quicklinks_play_later_block', true);
+
+//]]>
+</script>
+
+  </li>
+    <li id="quicklinks_facebook" class="socialshare">
+      <div class="fb-like fb_edge_widget_with_comment fb_iframe_widget" data-href="http://www.kongregate.com/games/Ninjakiwi/bloons-td-5" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" colorscheme="light" fb-xfbml-state="rendered"><span style="height: 20px; width: 77px;"><iframe id="f2d5ea9d3" name="f1067a969c" scrolling="no" title="Like this content on Facebook." class="fb_ltr" src="http://www.facebook.com/plugins/like.php?api_key=218282488189771&amp;channel_url=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D28%23cb%3Df28174fedc%26domain%3Dwww.kongregate.com%26origin%3Dhttp%253A%252F%252Fwww.kongregate.com%252Ff30eee2264%26relation%3Dparent.parent&amp;colorscheme=light&amp;extended_social_context=false&amp;href=http%3A%2F%2Fwww.kongregate.com%2Fgames%2FNinjakiwi%2Fbloons-td-5&amp;layout=button_count&amp;locale=en_US&amp;node_type=link&amp;sdk=joey&amp;send=false&amp;show_faces=false&amp;width=450" style="border: none; overflow: hidden; height: 20px; width: 77px;"></iframe></span></div>
+    </li>
+  <script type="text/javascript">
+//<![CDATA[
+    (function() { 
+    }).runWhenDomLoaded();
+
+//]]>
+</script></ul>
+
+                  </td>
+                </tr>
+                <tr>
+                  <td id="gameholder" style="width:800px;">
+                    <script type="text/javascript">
+//<![CDATA[
+                      if(pageTracker) {
+                        var now = new Date().getTime(),
+                            time = (now > 0 && _lts && _lts > 0) ? (now - _lts) : -1;
+                        pageTracker._recordTimeEvent('BeforeGameEmbed', "Bloons TD 5", time);
+                      }
+
+//]]>
+</script>                    <div id="game" style="width: 800px; height: 620px; visibility: visible;" class="-ce-ignore">
+                      <p id="cinematic_close_container"><a class="spritegame textreplace" href="#" id="cinematic_close_link" onclick="CinematicMode.deactivateCinematicMode(); return false;" style="display:none">close</a></p>
+                        
+<div style="position:absolute;top:0px;left:0px; width: 800px; height: 620px; background-color: #333333;" id="game_wrapper" class="box_sizing">
+  <object type="application/x-shockwave-flash" data="http://chat.kongregate.com/gamez/0015/1730/live/Preloader.swf?kongregate_game_version=1380582015" width="800" height="620" id="gamediv"><param name="wmode" value="direct"><param name="bgcolor" value="#333333"><param name="allownetworking" value="all"><param name="allowscriptaccess" value="never"><param name="base" value="http://chat.kongregate.com/gamez/0015/1730/live/"><param name="flashvars" value="kongregate=true&amp;kongregate_username=Guest&amp;kongregate_user_id=0&amp;kongregate_game_id=151730&amp;kongregate_game_version=1380582015&amp;kongregate_host=http%3A%2F%2Fwww.kongregate.com&amp;kongregate_game_url=http%3A%2F%2Fwww.kongregate.com%2Fgames%2FNinjakiwi%2Fbloons-td-5&amp;kongregate_api_host=http%3A%2F%2Fapi.kongregate.com&amp;kongregate_game_auth_token=84983c60f7daadc1cb8698621f802c0d9f9a3c3c295c810748fb048115c186ec&amp;kongregate_stamp=84983c60f7daadc1cb8698621f802c0d9f9a3c3c295c810748fb048115c186ec&amp;api_path=http%3A%2F%2Fchat.kongregate.com%2Fflash%2FAPI_AS3_efeff9e3f4f6350255b95aa31ba0ef32.swf&amp;game_url=http%3A%2F%2Fwww.kongregate.com%2Fgames%2FNinjakiwi%2Fbloons-td-5&amp;kongregate_split_treatments=none&amp;kongregate_api_path=http%3A%2F%2Fchat.kongregate.com%2Fflash%2FAPI_AS3_efeff9e3f4f6350255b95aa31ba0ef32.swf&amp;kongregate_channel_id=1384470867681&amp;debug_level=undefined"></object>
+</div>
+
+
+<script type="text/javascript">
+//<![CDATA[
+if(Prototype.Browser.Opera){
+  $('gamediv').style.position = "relative";
+}
+
+var query_params = location.search.toQueryParams(), kong_flash_variables = {};
+for( var key in query_params ){
+  if( key.indexOf("kv_") == 0 ){
+    kong_flash_variables[key] = query_params[key];
+  }
+}
+
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+function activateGame(urlOptions) { if (!urlOptions) urlOptions = ''; var swf_location = "http://chat.kongregate.com/gamez/0015/1730/live/Preloader.swf?kongregate_game_version=1380582015";      var swfobject_flash_vars = {"kongregate":"true","kongregate_username":encodeURIComponent(active_user.username()),"kongregate_user_id":encodeURIComponent(active_user.id()),"kongregate_game_id":"151730","kongregate_game_version":"1380582015","kongregate_host":"http%3A%2F%2Fwww.kongregate.com","kongregate_game_url":"http%3A%2F%2Fwww.kongregate.com%2Fgames%2FNinjakiwi%2Fbloons-td-5","kongregate_api_host":"http%3A%2F%2Fapi.kongregate.com","kongregate_game_auth_token":encodeURIComponent(active_user.gameAuthToken()),"kongregate_stamp":encodeURIComponent(active_user.gameAuthToken()),"api_path":"http%3A%2F%2Fchat.kongregate.com%2Fflash%2FAPI_AS3_efeff9e3f4f6350255b95aa31ba0ef32.swf","game_url":"http%3A%2F%2Fwww.kongregate.com%2Fgames%2FNinjakiwi%2Fbloons-td-5","kongregate_split_treatments":encodeURIComponent(active_user.gameSplitTreatments('bloons-td-5')),"kongregate_api_path":"http%3A%2F%2Fchat.kongregate.com%2Fflash%2FAPI_AS3_efeff9e3f4f6350255b95aa31ba0ef32.swf","kongregate_channel_id":encodeURIComponent(channel_id),"debug_level":encodeURIComponent(active_user.debugLevel())};
+      if(typeof(kong_flash_variables) == "object"){
+        for(var k in kong_flash_variables){
+          swfobject_flash_vars[k] = encodeURIComponent(kong_flash_variables[k]);
+        }
+      }
+      swfobject.embedSWF(swf_location, "gamediv","800","620","6","/flash/expressInstall.swf",swfobject_flash_vars,{"wmode":"direct","bgcolor":"#333333","allownetworking":"all","allowscriptaccess":"never","base":"http://chat.kongregate.com/gamez/0015/1730/live/"},{});
+ document.fire('game:activated'); }; if (window.active_user && (!active_user.hasPreroll() || active_user.isPremium() || active_user.gameplaysCount() < 1)){ bumper.closeAd(); }
+//]]>
+</script>
+
+<!-- border-top:3px solid #900;position:absolute;top:-0px;left:-0px;width:800px;height:620px; -->
+<div id="flash-update-required" style="display:none;"> 
+  <div style=" font-size: 14px; color: #fff; padding-top: 20px;">
+    <p><strong>This Kongregate game requires Flash Player version 11 or higher.</strong></p>
+    <p><a href="http://get.adobe.com/flashplayer/">Please update your Flash Player</a></p>
+  </div>
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+  if (typeof(pageTracker) != 'undefined') {
+    var ae_now = new Date().getTime(),
+        ae_time = (ae_now > 0 && _lts && _lts > 0) ? (ae_now - _lts) : -1;
+    pageTracker._recordTimeEvent('AfterGameEmbed', "Bloons TD 5", ae_time); 
+  }
+  
+  var version = swfobject.getFlashPlayerVersion();
+  if (version.major < 11) {
+    $('game_wrapper').update($('flash-update-required').innerHTML);
+  }
+  
+
+//]]>
+</script>
+                      <p class="bug_game cinemode_bug_link footnote" id="cinematic_bug_report" style="display: none">
+                        <span id="cinematic_bug_link"><a href="/cinematic_bug_counters/increment?game_id=151730" onclick="$('cinematic_bug_link').hide(); $('cinematic_bug_spinner').show(); new Ajax.Request(this.href, {asynchronous:true, evalScripts:true, onFailure:function(request){new Effect.Highlight('cinematic_bug_report', {startcolor: '#cc2222'});$('cinematic_bug_spinner').hide()}, onSuccess:function(request){$('cinematic_bug_link').update('Thank You!').show(); $('cinematic_bug_spinner').hide()}, parameters:'authenticity_token=' + encodeURIComponent('kq4nYcp96l9bFFwdI1XuH4WqXkkWQ44GKkyZSovoVN4=')}); return false;">Report Cinematic Bug</a></span><span class="spinner" id="cinematic_bug_spinner" style="display: none">...</span>
+                      </p>
+                    </div>
+                    <noscript>
+  &lt;div class="noscript"&gt;
+    &lt;p&gt;To play games on Kongregate, you must have Javascript enabled and be using a current version of Adobe's Flash Player.&lt;/p&gt;
+    &lt;p&gt;&lt;a href="http://www.adobe.com/go/getflashplayer"&gt;
+      &lt;img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" style="margin: 12px; border: none;" width="112" height="33" /&gt;&lt;/a&gt;&lt;/p&gt;
+  &lt;/div&gt;
+</noscript>
+<div id="noflash" class="noscript" style="display:none;">
+  <p>To play games on Kongregate, you must have Javascript enabled and be using a current version of Adobe's Flash Player.</p>
+  <p><a href="http://www.adobe.com/go/getflashplayer" class="noflash_img spritegame textreplace">Get Adobe Flash player</a></p>
+</div>
+<script type="text/javascript">
+  if (!swfobject.getFlashPlayerVersion().major) {
+    $('game').hide();
+    $('noflash').show();
+  }
+</script>
+
+                  </td>
+                  <td id="chat_container_cell">
+                    <div id="chat_container" class="chatholder" style="width:300px;height:620px;">
+<div id="kong_game_ui">
+  <ul id="main_tab_set" class="main_tabs">
+
+    <li class="tab" id="more_games_tab" style="display:none">
+      <a href="#more_games_tab_pane" id="more_games" class="">
+        <span style="float: left">More Games</span>
+      </a>
+    </li>
+
+    
+    <li class="tab closeable" id="recommended_tab" style="display:none;">
+      <a href="#recommended_tab_pane" id="recommended" class="">
+        <span style="float: left">Rate</span>
+        <span class="close_tab_link spritegame spriteall">Close</span>
+      </a>
+    </li>
+
+    <li class="tab closeable" id="signin_tab" style="display:none;">
+      <a href="#signin_tab_pane" id="signin" class="">
+        <span style="float: left">Sign In</span>
+        <span class="close_tab_link spritegame spriteall">Close</span>
+      </a>
+    </li>
+    <li class="tab closeable" id="other_tab" style="display: none;">
+      <a href="#alert_tab_pane" id="alert" class="">
+        <span style="float: left">Alert</span>
+        <span class="close_tab_link spritegame spriteall">Close</span>
+      </a>
+    </li>
+    <li class="tab closeable" id="accomplishment_awarded_tab" style="display:none;">
+        <a href="#accomplishment_awarded_tab_pane" id="accomplishment_awarded" class="">
+          <span style="float: left">Award</span>
+          <span class="close_tab_link spritegame spriteall">Close</span>
+        </a>
+    </li>
+    <li class="tab closeable" id="accomplishment_group_awarded_tab" style="display:none;">
+        <a href="#accomplishment_group_awarded_tab_pane" id="accomplishment_group_awarded" class="">
+          <span style="float: left">Award</span>
+          <span class="close_tab_link spritegame spriteall">Close</span>
+        </a>
+    </li>
+    <li class="tab closeable" id="share_tab" style="display:none;">
+        <a href="#share_tab_pane" id="share" class="">
+          <span style="float: left">Share</span>
+          <span class="close_tab_link spritegame spriteall">Close</span>
+        </a>
+    </li>
+    <li class="tab closeable" id="high_score_alert_tab" style="display:none;">
+        <a href="#high_score_alert_tab_pane" id="high_score" class="">
+          <span style="float: left">Award</span>
+          <span class="close_tab_link spritegame spriteall">Close</span>
+        </a>
+    </li>
+    <li class="tab closeable" id="shared_content_welcome_tab" style="display:none;">
+      <a href="#shared_content_welcome_tab_pane" id="shared_content_welcome" class="">
+        <span style="float: left">Shared</span>
+        <span class="close_tab_link spritegame spriteall">Close</span>
+      </a>
+    </li>
+    <li class="tab closeable" id="progress_tab" style="display:none;">
+      <a href="#progress_tab_pane" id="progress" class="">
+        <span style="float: left">Progress</span>
+        <span class="close_tab_link spritegame spriteall">Close</span>
+      </a>
+    </li>
+    <li class="tab closeable" id="avatar_tab" style="display:none;">
+        <a href="#avatar_tab_pane" id="avatar" class="">
+          <span style="float: left">Alert</span>
+          <span class="close_tab_link spritegame spriteall">Close</span>
+        </a>
+    </li>
+  </ul>
+  
+  <div id="accomplishments_tab_pane" class="tabpane" style="height: 579px; display: none;"></div>
+  <div id="more_games_tab_pane" class="tabpane" style="display: none; height: 579px;">
+    <div class="default_tab_pane_content">
+      <p class="h4">More Games loading!</p>
+      <span class="spinner spinner_big">loading</span>
+    </div>
+  </div>
+  <div id="game_tab_pane" class="tabpane" style="height: 579px; display: none;"></div>
+<!-- end of game_tab_pane -->
+  
+  <div id="chat_tab_pane" class="tabpane" style="height: 579px; display: none;">
+    <div id="chat_default_content" class="default_tab_pane_content">
+      <p class="h4">Joining room</p>
+      <span class="spinner spinner_big">loading</span>
+    </div>
+    <div id="session_conflict_content_for_chat_tab" style="display:none;">
+    </div>
+    <!-- This template is extracted from the DOM and cloned for each room a user joins -->
+    <div class="chat_room_template" style="display:none;">
+      <div class="chat_tabpane users_in_room clear">
+        <div class="guest_count_holder user_row" style="display:none;">
+          <span class="guest_count_in_room spritegame"></span>
+        </div>
+      </div>
+      <div class="chat_tabpane friends_in_room"></div>
+      <div class="chat_message_window" style="height:386px"></div>
+      <div class="chat_controls">
+        <textarea class="chat_input prompt_text">Enter text for chat here</textarea>
+      </div>
+      <div class="guest_chat_controls" style="display:none;">
+        <a href="#" onclick="holodeck.showSignupTab(); return false;">Register</a> or <a href="#" onclick="active_user.activateInlineLogin(); return false;">Sign in</a> to <strong>chat now</strong>, earn points, level up and track your progress!
+      </div>
+      <div class="silenced_chat_controls" style="display:none;">
+        <span class="silence_duration"></span>.
+        Click <a href="/pages/silenced" target="_blank">here</a> to read about silences.
+      </div>
+      
+      <!-- chat error message templates -->
+      <div class="chat_error_message_templates" style="display:none">
+        <div class="error_msg_too_long error_msg">
+          Kongregate Notice: Part of your message was cut off because it exceeded the 250 character maximum.
+        </div>
+        <div class="error_msg_rate_limit error_msg">
+          Kongregate Notice: To prevent spamming, we've limited how fast you can submit messages. Please try again.
+        </div>
+        <div class="error_msg_upsell_premium error_msg">
+          Kongregate Notice: You can make your very own private chat room by <a href="#" class="premium_upsell clickable">joining Kong</a>. Now you know!
+        </div>
+      </div>
+      <!-- end chat error message templates -->
+    </div>
+    <!-- End chat room template -->
+    <div id="chat_room_chooser" style="display: none; visibility: hidden;">
+      <div class="return_to_room"><a href="#">« Return to <span class="room_name"></span></a></div>
+      <h5 class="choose_room_text">Choose a room from the list below:</h5>
+      <div class="room_list_header">
+        <span class="room_name_header">Room Name</span>
+        <span class="room_users_count_header"># of Users</span>
+        <div class="clear"></div>
+      </div>
+      <div class="rooms_list" style="height:516px;">
+        <!-- This template is extracted and cloned for each group of rooms a user may choose from -->
+        <div class="joinable_rooms_group collapsible_panel" style="display:none;">
+          <p class="panel_handle spritegame closed_link"><a class="group_name" href="#"></a></p>
+          <div class="panel_body cntrToggle">
+            <ul class="rooms"></ul>
+          </div>
+        </div>
+        <div class="room_description_rollover_container spritesite" style="display: none;">
+          <div class="room_description_rollover spritesite">
+            <div class="room_description_rollover_inner">
+              <span class="room_description_rollover_content"></span>
+            </div>
+          </div>
+        </div>
+        <!-- End chat rooms list template -->
+      </div>
+    </div>
+    <!-- template for user rollover -->
+    <div id="user_rollover_template" class="user_rollover_container spritesite" style="display:none;">
+      <div class="user_rollover spritesite">
+        <div class="user_rollover_inner">
+          <p class="rollover_game_link_holder">
+            playing: <a id="rollover_game_link" class="rollover_game_link" href="#"></a>
+          </p>
+          <p class="rollover_profile_link_holder">
+            <a id="rollover_profile_link" class="rollover_profile_link" href="#" target="_blank">View Profile</a>
+          </p>
+          <p id="add_as_friend_content" class="rollover_add_friend_link_holder media">
+            <span style="display: none;" id="add_as_friend_indicator" class="spinner rollover_loading imgMini">loading</span>
+            <a id="rollover_add_friend_link" class="rollover_add_friend_link bd" href="#">Add as friend</a>
+          </p>
+          <p class="rollover_private_message_link_holder">
+            <a id="rollover_private_message_link" class="rollover_private_message_link" href="#">Private message</a>
+          </p>
+          <p class="rollover_private_room_invite_link_holder">
+            <a id="rollover_private_room_invite_link" class="rollover_private_room_invite_link" href="#" title="Invite to Private Chat">
+              <span class="invite">Invite Private</span>
+              <span class="retry" style="display:none">Invited (retry)</span>
+            </a>
+          </p>
+          <p class="rollover_private_room_kick_link_holder">
+            <a id="rollover_private_room_kick_link" class="rollover_private_room_kick_link" href="#" title="Kick out of Private Chat">
+              <span class="invite">Remove User</span>
+            </a>
+          </p>
+          <p class="rollover_mute_link_holder media" id="rollover_mute_link_holder">
+            <span style="display: none;" id="muting_indicator" class="spinner rollover_loading imgMini">loading</span>
+            <a id="rollover_mute_link" class="rollover_mute_link bd" href="#">Mute</a>
+          </p>
+        </div>
+      </div><!-- /.user_rollover -->
+    </div>
+    <!-- end template for user rollover -->
+    <!-- user profile placeholder -->
+    <div id="user_mini_profile_container" style="display:none;">
+      <div class="return_to_room"><a href="#">« Return to <span class="room_name"></span></a></div>
+      <div id="user_mini_profile" style="height:555px">
+      </div>
+    </div>
+    <!-- friends online placeholder -->
+    <div id="friends_online_container" style="display:none;">
+      <div class="return_to_room"><a href="#">« Return to <span class="room_name"></span></a></div>
+      <div id="friends_online" style="height:555px">
+      </div>
+    </div>
+    <!-- room info placeholder -->
+    <div id="room_info_container" style="display:none;">
+      <div class="return_to_room"><a href="#">« Return to <span class="room_name"></span></a></div>
+      <div id="room_info" class="cntrToggle pan mtm" style="height:555px">
+      </div>
+    </div>
+
+    <div id="chat_window_spinner" style="display:none">
+      <span class="spinner spinner_big">loading</span>
+    </div>
+
+    <div id="chat_window" style="">
+      <div id="chat_window_header" style="display:none">
+        <div class="room_name_container h6_alt mbs">Room: <span class="room_name h6"></span> (<span class="number_in_room"></span>)</div>
+        <div id="chat_room_tabs">
+          <div id="chat_room_tab" class="chat_room_tab"><a href="#">Room<span class="unread_chat_messages spriteall spritegame" style="display:none">Unread</span></a></div>
+          <div id="private_room_tab" class="chat_room_tab" style="display:none"><a href="#">Private<span class="unread_chat_messages spriteall spritegame" style="display:none">Unread</span></a></div>
+          <div id="game_room_tab" class="chat_room_tab" style="display:none"><a href="#">Game<span class="unread_chat_messages spriteall spritegame" style="display:none">Unread</span></a></div>
+        </div>
+        <div id="chat_actions_container" class="chat_actions_container">
+        </div>
+        
+      </div>
+      <div id="chat_rooms_container"></div>
+    </div>
+
+  </div>
+  
+
+  <div id="signup_tab_pane" class="tabpane" style="height: 579px; overflow-y: auto; overflow-x: hidden;">
+                      <div id="signup_tab_form" class="signup_tab_form hasLayout">
+                        <div id="facebook-connect-wrapper" style="display: none;">
+  <h3 class="fb_signup_title sprite_facebook h2 mts mbm">Welcome to Kongregate</h3>
+<p class="mts mbm">Register now to save your earned badges, chat with other players, and share your progress with your friends.</p>
+<div class="cntrToggle pam fb_signup_cta">
+  <h4 class="h2 mvm fb_signup_header sprite_facebook"><span class="fb_signup_header_text"><span class="sprite_facebook fb_signup_header_icon"></span>Sign up now:</span></h4>
+  <a href="#" class="facebook_signin_large sprite_facebook mvl" onclick="new FacebookAuthenticator({}); return false;" title="Sign in with Facebook">Connect with Facebook</a>
+  <iframe id="facebook-facepile" src="//www.facebook.com/plugins/facepile.php?action&amp;size=medium&amp;max_rows=1&amp;width=249&amp;colorscheme=light&amp;app_id=218282488189771" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:264px;" allowtransparency="true"></iframe>
+  <p class="mts mbl">or <a href="#" id="email-signup-link">Sign Up with Email</a></p>
+</div>
+
+</div>
+<div id="normal-registration-wrapper">
+   </p>
+  <p class="signup_tab_form_submit_error mbs ctnr ctnrError" id="submit_error_message" style="display: none;">
+    We encountered a problem. Please try again.
+  </p>
+  <div class="cntrToggle baseform">
+  
+
+  </div>
+</div>
+
+                      </div>
+                    </div>
+
+  <div id="signin_tab_pane" class="tabpane" style="display: none; height: 579px; overflow-y: auto; overflow-x: hidden;">
+    <div id="new_session_form" class="mts mbm">
+  <h3>Sign in to your account</h3>
+  <form accept-charset="UTF-8" action="https://www.kongregate.com/session" method="post" onsubmit="if(window.DynamicFrameTarget){ new DynamicFrameTarget({form: this, callback: user_status.sessionStatus});}"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="?"><input name="authenticity_token" type="hidden" value="FaKp4GcBls6mnu+11AG30DfFmCtUlMikWaj/Xt3Yb6E="></div>
+    <input id="game_id" name="game_id" type="hidden" value="151730">
+    <dl class="clearfix">
+    <dt><label for="username">Username or Email</label></dt>
+    <dd><input id="username" name="username" title="username" type="text"></dd>
+    <dt>
+      <label for="password">Password</label>
+          (<a href="#" onclick="active_user.activateInlineLogin({ recover: true}); return false;" tabindex="1">Forgot your password?</a>)
+    </dt>
+    <dd><input id="password" name="password" title="password" type="password"></dd>
+<dt id="signin">
+    <!--[if lte IE 7]><span class="inlinefix">.</span><![endif]-->
+    <input class="btn btn_wide btn_action" id="sessions_new_form_spinner" onclick="try{}catch(e){};if(!this.elem_sessions_new_form_spinner){this.elem_sessions_new_form_spinner=$('sessions_new_form_spinner');this.spin_sessions_new_form_spinner=$('sessions_new_form_spinner_spinner');this.restore=function(t){return function(){t.elem_sessions_new_form_spinner.show();t.spin_sessions_new_form_spinner.hide();Event.stopObserving(window, 'unload', t.restore);}}(this);}this.elem_sessions_new_form_spinner.hide();this.spin_sessions_new_form_spinner.show();Event.observe(window, 'unload', this.restore);" type="submit" value="Sign in"><span class="spinner" id="sessions_new_form_spinner_spinner" style="display:none" title="loading…">?</span>
+</dt>
+<dt id="remember"><input checked="checked" id="remember_me" name="remember_me" type="checkbox" value="true">&nbsp;<label for="remember_me" id="remember_label">Remember me</label></dt>
+</dl>
+
+</form></div>
+<div id="recovery_token_success" style="display:none;">
+  <button class="submission_button" onclick="holodeck.closeSigninTab();">Close</button>
+</div>
+<p class="reg_prompt">
+  <em>Not a member yet? <a href="#" onclick="holodeck.closeSigninTab(); holodeck.showSignupTab(); return false;">Join for free!</a></em>
+  <a href="#" class="fb_btn facebook_signin_medium sprite_facebook" onclick="new FacebookAuthenticator({}); return false;" title="Sign in with Facebook">Sign in</a>
+</p>
+
+  </div>
+
+  <div id="recommended_tab_pane" class="tabpane" style="display: none; height: 579px; overflow-y: auto; overflow-x: hidden;">
+    <div id="recommended_tab_pane_content">
+      <div class="rate_widget cntr cntrBanner">
+  <h2>Enjoying this game?</h2>
+  <p class="regtext mts">
+    <strong class="bright">Rate Bloons TD 5</strong> to receive better game recommendations
+  </p>
+  <div class="rateable_stars"><p class="game_rating rating_lrg"><span class="rating_unit js-rating-unit" data-game-id="151730" data-game-rating="0">
+  <span class="star_group rating_btns js-star-group" style="width: 0%;">
+    <span class="rating_star kong_ico js-star" title="Hated it" data-rating="1">*</span><span class="rating_star kong_ico js-star" title="Didn't like it" data-rating="2">*</span><span class="rating_star kong_ico js-star" title="Liked it" data-rating="3">*</span><span class="rating_star kong_ico js-star" title="Really liked it" data-rating="4">*</span><span class="rating_star kong_ico js-star" title="Loved it" data-rating="5">*</span>
+  </span>
+  <span class="star_group rating_range">
+    <span class="rating_star kong_ico js-star" data-rating="1">*</span><span class="rating_star kong_ico js-star" data-rating="2">*</span><span class="rating_star kong_ico js-star" data-rating="3">*</span><span class="rating_star kong_ico js-star" data-rating="4">*</span><span class="rating_star kong_ico js-star" data-rating="5">*</span>
+  </span>
+  <span class="star_rating_text">4.56719/5 rating</span>
+  <span class="game_rating_footnote predicted man">Our predicted rating for you</span>
+  <span class="game_rating_footnote rated man">Your rating</span>
+</span>
+
+</p></div>
+    <em class="js-unrated">What do you think?</em>
+  <p class="js-rated" style="display:none;">Thanks for your rating!</p>
+</div>
+
+<div class="rec_games_list mtl">
+  <h3>Recommended for you</h3>
+  <div class="game-unrated js-unrated">
+    <em class="hinted_value pts">Rate this game to get your recommended games below.</em>
+  </div>
+  <div id="recommended_tab_games" class="mtm">
+    <div class="game-rated js-rated" style="display:none;">
+      <span class="spinner spinner_big ptm center">loading</span>
+    </div>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+  <div id="alert_tab_pane" class="tabpane" style="display: none; height: 579px;">
+    <div id="alert_tab_pane_content"></div>
+  </div>
+  <div id="accomplishment_awarded_tab_pane" class="holodeck_award_outer tabpane" style="display: none; height: 579px;">
+    <div id="accomplishment_awarded_tab_pane_content"></div>
+  </div>
+  <div id="accomplishment_group_awarded_tab_pane" class="holodeck_award_outer tabpane" style="display: none; height: 579px;">
+    <div id="accomplishment_group_awarded_tab_pane_content"></div>
+  </div>
+  <div id="share_tab_pane" class="tabpane" style="display: none; height: 579px;">
+    <div id="share_tab_pane_content">
+      <div class="share_header media mbm">
+  <h4 class="mbs">
+    Earn points when you share <em>Bloons TD 5</em></h4>
+  <span class="spritegame imgMini share_header_icon"></span>
+  <p class="bd">You'll get 15 points for each user that signs up through the share tools below, and a bonus every time they level up.</p>
+</div>
+
+<div class="share_post_link clear">
+  <h5>Post a game link on your favorite website</h5>
+  <div class="social_share_links cntrToggle media">
+    <ul class="unit size1of2">
+      <li class="share_facebook spritegame"><a href="http://www.facebook.com/share.php?u=http://www.kongregate.com/games/Ninjakiwi/bloons-td-5?sfa=facebook" onclick="pageTracker._trackPageview('/share/facebook');window.open('http://www.facebook.com/sharer.php?u=' + encodeURIComponent(active_user.referrerUrl(&quot;http://www.kongregate.com/games/Ninjakiwi/bloons-td-5?sfa=facebook&quot;)) + '&amp;t='+encodeURIComponent(&quot;Play Bloons TD 5 on Kongregate&quot;),'sharer','toolbar=0,status=0,width=626,height=436'); return false;" title="Share on Facebook">Facebook</a></li>
+      <li class="share_myspace spritegame"><form accept-charset="UTF-8" action="http://www.myspace.com/index.cfm?fuseaction=postto" id="myspacepostto29399" method="post" target="_blank"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="?"><input name="authenticity_token" type="hidden" value="FaKp4GcBls6mnu+11AG30DfFmCtUlMikWaj/Xt3Yb6E="></div><input id="t" name="t" type="hidden" value="Play Bloons TD 5 on Kongregate"><input id="c" name="c" type="hidden" value="&amp;lt;p&amp;gt;I just played Bloons TD 5 on Kongregate.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;img alt=&amp;quot;Play Bloons TD 5&amp;quot; class=&amp;quot;game_icon&amp;quot; height=&amp;quot;74&amp;quot; src=&amp;quot;http://cdn3.kongcdn.com/game_icons/0044/9338/bloons-tower-defense5-300x250.jpg?24077-op&amp;quot; title=&amp;quot;Bloons TD 5&amp;quot; width=&amp;quot;93&amp;quot; /&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Bloons TD 5 has heaps of new features including all of your favourite towers from BTD4 with 8 awesome upgrades each instead of 4, and two brand new never before seen tower types. So much new awesome: tower upgrades with cool Super Activated Abilities, new Bloon types, fun new tracks with moving parts and tunnels, powerful Special Agent towers, Specialty Buildings, daily rewards, and daily challenges - a fun new challenge to play each and every day! Updates are coming all the time, so keep coming back to check out all of the new awesomeness. Have fun!&amp;lt;/p&amp;gt;"><input id="myspacepostto29399_url" name="u" type="hidden" value=""><input id="l" name="l" type="hidden" value="1"><a href="#" onclick="pageTracker._trackPageview('/share/myspace');;$('myspacepostto29399_url').value=active_user.referrerUrl(&quot;http://www.kongregate.com/games/Ninjakiwi/bloons-td-5?sfa=myspace&quot;);$('myspacepostto29399').submit();return false;">MySpace</a></form></li>
+      <li class="share_stumbleupon spritegame"><a href="http://www.stumbleupon.com/submit?title=Bloons+TD+5&amp;url=http%3A%2F%2Fwww.kongregate.com%2Fgames%2FNinjakiwi%2Fbloons-td-5%3Fsfa%3Dstumbleupon" onclick="pageTracker._trackPageview('/share/stumble');window.open('http://www.stumbleupon.com/submit?title=Bloons+TD+5&amp;url=' + encodeURIComponent(active_user.referrerUrl(&quot;http://www.kongregate.com/games/Ninjakiwi/bloons-td-5?sfa=stumbleupon&quot;))); return false;" title="Share on Stumbleupon">StumbleUpon</a></li>
+    </ul>
+    <ul class="unit size1of2 lastUnit">
+      <li class="share_twitter spritegame"><a href="http://twitter.com/home?status=cool+game+on+Kongregate" onclick="pageTracker._trackPageview('/share/twitter');window.open('http://twitter.com/home?status=' + encodeURIComponent(active_user.referrerUrl(&quot;http://www.kongregate.com/games/Ninjakiwi/bloons-td-5?sfa=twitter&quot;) + ' - cool game on Kongregate')); return false;" title="Tweet it">Twitter</a></li>
+      <li class="share_digg spritegame"><a href="http://digg.com/submit?phase=2&amp;url=http://www.kongregate.com/games/Ninjakiwi/bloons-td-5?sfa=digg&amp;title=Bloons+TD+5&amp;bodytext=Bloons+TD+5+has+heaps+of+new+features+including+all+of+your+favourite+towers+from+BTD4+with+8+awesome+upgrades+each+instead+of+4%2C+and+two+brand+new+never+before+seen+tower+types.+So+much+new+awesome%3A+tower+upgrades+with+cool+Super+Activated+Abilities%2C+new+Bloon+types%2C+fun+new+tracks+with+moving+parts+and+tunnels%2C+powerful+Special+Agent+towers%2C+Specialty+Buildings%2C+daily+rewards%2C+and+daily+challenges+-+a+fun+new+challenge+to+play+each+and+every+day%21+Updates+are+coming+all+the+time%2C+so+keep+coming+back+to+check+out+all+of+the+new+awesomeness.+Have+fun%21&amp;topic=playable_web_games" onclick="pageTracker._trackPageview('/share/digg');window.open('http://digg.com/submit?phase=2&amp;url=' + encodeURIComponent(active_user.referrerUrl(&quot;http://www.kongregate.com/games/Ninjakiwi/bloons-td-5?sfa=digg&quot;)) + '&amp;title=Bloons+TD+5&amp;bodytext=Bloons+TD+5+has+heaps+of+new+features+including+all+of+your+favourite+towers+from+BTD4+with+8+awesome+upgrades+each+instead+of+4%2C+and+two+brand+new+never+before+seen+tower+types.+So+much+new+awesome%3A+tower+upgrades+with+cool+Super+Activated+Abilities%2C+new+Bloon+types%2C+fun+new+tracks+with+moving+parts+and+tunnels%2C+powerful+Special+Agent+towers%2C+Specialty+Buildings%2C+daily+rewards%2C+and+daily+challenges+-+a+fun+new+challenge+to+play+each+and+every+day%21+Updates+are+coming+all+the+time%2C+so+keep+coming+back+to+check+out+all+of+the+new+awesomeness.+Have+fun%21&amp;topic=playable_web_games'); return false;" title="Digg This!">Digg</a></li>
+      <li class="share_reddit spritegame"><a href="http://www.reddit.com/r/gaming/submit?url=http%3A%2F%2Fwww.kongregate.com%2Fgames%2FNinjakiwi%2Fbloons-td-5%3Fsfa%3Dreddit" onclick="pageTracker._trackPageview('/share/reddit');window.open('http://www.reddit.com/r/gaming/submit?title=Play+Bloons+TD+5+on+Kongregate&amp;url=' + encodeURIComponent(active_user.referrerUrl(&quot;http://www.kongregate.com/games/Ninjakiwi/bloons-td-5?sfa=reddit&quot;))); return false;" title="Post to reddit">Reddit</a></li>
+    </ul>
+    <p class="mts"><em>Game URL with referral code</em></p>
+    <input type="text" name="game_url" id="share_tab_pane_game_url" value="http://www.kongregate.com/games/Ninjakiwi/bloons-td-5?sfa=permalink" class="game_url spritegame pll">
+  </div>
+</div>
+
+<div id="share_email_invitation_container">
+  <div class="share_email_invitation mtm">
+    <h5>Email an Invitation to play this game</h5>
+    <div class="email_invitation_contents cntrToggle">
+      <a class="import_contacts spritegame mbs" href="#" onclick="activateCloudspongeChooser('share_email_invitation_recipients');; return false;">Import contacts from Yahoo/Gmail/Hotmail</a>
+      <div id="share_email_invitation_confirmation"></div>
+      <form accept-charset="UTF-8" action="/plugs.chat" class="new_plug" id="new_plug" method="post" onsubmit="new Ajax.Request('/plugs.chat', {asynchronous:true, evalScripts:true, parameters:Form.serialize(this)}); return false;"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="?"><input name="authenticity_token" type="hidden" value="FaKp4GcBls6mnu+11AG30DfFmCtUlMikWaj/Xt3Yb6E="></div>
+        <div class="recipients">
+          <label for="share_email_invitation_recipients">To</label>
+          <input class="hintable recipients_field" id="share_email_invitation_recipients" name="plug[email_addresses]" size="30" title="eg, bob@123.com, jan@abc.com" type="text">
+        </div>
+        <div class="email">
+          <label for="plug_sender_email">From</label>
+          <input class="hintable email_field" id="plug_sender_name_or_email" name="plug[sender_name_or_email]" title="Enter your email address" type="text">
+        </div>
+        <div class="personal_message clear">
+          <label for="plug_message">Message</label>
+          <textarea cols="40" id="plug_message" name="plug[message]" rows="20"></textarea>
+        </div>
+        <input id="plug_game_id" name="plug[game_id]" type="hidden" value="151730">
+        <input class="btn btn_wide btn_action" id="share_email_invitation_submit" onclick="try{$('share_email_invitation_confirmation').update('');}catch(e){};if(!this.elem_share_email_invitation_submit){this.elem_share_email_invitation_submit=$('share_email_invitation_submit');this.spin_share_email_invitation_submit=$('share_email_invitation_submit_spinner');this.restore=function(t){return function(){t.elem_share_email_invitation_submit.show();t.spin_share_email_invitation_submit.hide();Event.stopObserving(window, 'unload', t.restore);}}(this);}this.elem_share_email_invitation_submit.hide();this.spin_share_email_invitation_submit.show();Event.observe(window, 'unload', this.restore);" type="submit" value="Send"><span class="spinner" id="share_email_invitation_submit_spinner" style="display:none" title="loading…">?</span>
+        <div class="clear"></div>
+</form>    </div>
+  </div>
+</div>
+
+
+    </div>
+  </div>
+  <div id="high_score_alert_tab_pane" class="holodeck_award_outer tabpane" style="display: none; height: 579px;">
+    <div id="high_score_alert_tab_pane_content">
+      <div class="hololevel_outer award_banner ptl">
+  <div class="award_feature">
+    <h4 class="award_title high_award_title pbm">Congratulations&nbsp;<span id="high_score_alert_username"></span>!</h4>
+    <p class="regtextLrg high_score_intro mbm"><strong>You set a high score in</strong> Bloons TD 5</p>
+    <div class="regtext high_score_summary">
+    </div>
+  </div>
+</div>
+
+    </div>
+  </div>
+  
+  <div id="shared_content_welcome_tab_pane" class="tabpane" style="display: none; height: 579px;">
+    <div id="shared_content_welcome_tab_pane_content">
+      
+    </div>
+  </div>
+
+  <div id="progress_tab_pane" class="holodeck_award_outer tabpane" style="display: none; height: 579px;">
+    <div id="progress_tab_pane_content">
+    </div>
+  </div>
+  
+
+  <div id="avatar_tab_pane" class="tabpane" style="display: none; height: 579px;">
+    <div id="avatar_tab_pane_content" class="contents_inner">
+      <div id="avatar_prompt_content">
+        <h3>Bloons TD 5 has sent a replacement avatar.</h3>
+        <div class="game_avatar_image">
+          <img alt="avatar from Bloons TD 5" id="game_supplied_avatar_image_tag" src="http://cdn1.kongcdn.com/images/blank.gif" style="max-height: 459px; max-width: 100%">
+        </div>
+        
+        <div id="avatar_controls" class="avatar_controls" style="display:none;">
+          <p>Would you like to use this image as your Kongregate avatar?</p>
+          <a href="#" id="game_avatar_accept_button" onclick="holodeck.saveAvatar(); return false;">Change Avatar</a>
+          <span class="spinner avatar_update_spinner" id="avatar_update_spinner" style="display:none" title="loading…">?</span>
+          <a href="#" id="game_avatar_cancel_link" onclick="holodeck.cancelAvatar(); return false;">No Thanks</a>
+        </div>
+        <div id="avatar_controls_guest" class="avatar_controls_guest">
+          <a href="#" onclick="holodeck.showSignupTab(); return false;">Register</a> or <a href="#" onclick="active_user.activateInlineLogin(); return false;">Sign in</a> to save this avatar.
+        </div>
+      </div>
+      <div id="avatar_save_results"></div>
+    </div>
+  </div>
+  
+<!-- alert tab contents -->
+<div id="disconnected_alert" class="disconnect_tab" style="display:none;">
+  <h4 class="h4 mbs">You have been disconnected from Kongregate's chat &amp; score submission servers.</h4>
+  <div class="disconnect_content cntr cntrToggle">
+    <div class="media">
+      <span class="disconnect_intro spritegame spriteall img mts"></span>
+      <p class="bd">Check the hints below to get connected with the community and track achievements in thousands of games.</p>
+    </div>
+    <p class="clear mvs">
+      <strong class="h5">Check your connection</strong>
+      Please check your internet connection and refresh the page if chat does not reconnect on its own. Note that you may lose unsaved game progress if you refresh the page.
+    </p>
+    <p class="mvs">
+      <strong class="h5">Try again in a few minutes</strong>
+      Sometimes the internet is just not happy. We might have restarted our chat server, or there might be a temporary problem that will resolve itself soon. You can try refreshing the page in a couple minutes - or <a href="/feedbacks/new" onclick="window.open(this.href);return false;">contact our support team</a> for more help if the problem continues.
+    </p>
+    <p class="mvs">
+      <strong class="h5">Did you lose an achievement?</strong>
+      Take a screenshot first and <a href="/feedbacks/new?game_id=151730&amp;type=MissingAccomplishmentFeedback" onclick="window.open(this.href);return false;">report the missing achievement</a>.
+    </p>
+    <div class="disconnected_spinner"><span class="spinner spinner_big">loading</span></div>
+  </div>
+</div>
+
+<div id="session_conflict_alert" style="display:none;">
+  <h4 class="h4 mbs">You have been disconnected from Kongregate's chat &amp; score submission servers due to a session conflict.</h4>
+  <div class="disconnect_content cntr cntrToggle">
+    <div class="media">
+      <span class="disconnect_intro spritegame spriteall img mts"></span>
+      <p class="bd">Check the hints below to get connected with the community and save your progress in thousands of games.</p>
+    </div>
+    <p class="mvs">
+      <strong class="h5">Are you logged into Kongregate in another tab or window?</strong>
+      Kongregate only allows one chat connection per user. Please close other tabs and windows where you are logged in, then hit the 'reconnect' button below.
+    </p>
+    <p class="mvs">
+      <strong class="h5">Did you lose an achievement?</strong>
+      Take a screenshot first and <a href="/feedbacks/new?game_id=151730&amp;type=MissingAccomplishmentFeedback" onclick="window.open(this.href);return false;">report the missing achievement</a>.
+    </p>
+    <div class="reconnect_button mvm">
+      <input type="button" value="RECONNECT ME" onclick="$(this).hide(); $(this).next().show(); holodeck.reconnect();" class="btn btn_wide btn_action">
+      <div class="disconnected_spinner" id="session_conflict_reconnect_spinner" style="display:none;"><span class="spinner spinner_big">loading</span></div>
+    </div>
+  </div>
+</div>
+
+<div id="session_expired_alert" style="display:none;">
+
+
+  <h4 class="h4 mbs">To reconnect to chat or submit statistics, you must refresh your page.</h4>
+  <div class="disconnect_content cntr cntrToggle">  
+    <div class="media">
+      <span class="disconnect_intro spritegame spriteall img mts"></span>
+      <p class="bd">Check the hints below to get connected with the community and save your progress in thousands of games.</p>
+    </div>
+    <p class="mvs">
+      <strong class="h5">Did you log into Kongregate in another browser?</strong>
+      That would make the session in this browser stale.
+    </p>
+    <p class="mvs">
+      <strong class="h5">Did you lose an achievement?</strong>
+      Take a screenshot first and <a href="/feedbacks/new?game_id=151730&amp;type=MissingAccomplishmentFeedback" onclick="window.open(this.href);return false;">report the missing achievement</a>.
+    </p>
+  </div>
+</div>
+
+
+<div id="cannot_connect_alert" style="display:none;">
+  <h4 class="h4 mbs">You are not yet connected to Kongregate's chat &amp; score submission servers.</h4>
+  <div class="disconnect_content cntr cntrToggle">
+    <div class="media">
+      <span class="disconnect_intro spritegame spriteall img mts"></span>
+      <p class="bd">Check the hints below to get connected with the community and track achievements in thousands of games.</p>
+    </div>
+    <p class="mvs">
+      <strong class="h5">Check your security settings</strong>
+      Connection issues are typically caused by security settings on your network or computer. Check that your firewall or router has port 5222 open and allowing traffic.  If you are on a school or office network, you may need to contact your network administrator to make the necessary changes.
+    </p>
+    <p class="mvs">
+      <strong class="h5">Is your version of Flash current?</strong>
+      Some old versions of Flash don't work well with our new chat application. You can go to <a href="http://get.adobe.com/flashplayer/" onclick="window.open(this.href);return false;">http://get.adobe.com/flashplayer/</a> to get the newest version.
+    </p>
+    <p class="mvs">
+      <strong class="h5">Ad blockers and browser plug ins</strong>
+      Ad blocker programs like AdBlock Plus, proxy software and a variety of other browser add-ons can prevent users from connecting to chat. Please try disabling any third party browser plugins you have have, then refresh the page.
+    </p>
+    <p class="mvs">
+      <strong class="h5">Try again in a few minutes</strong>
+      Sometimes the internet is just not happy. We might have restarted our chat server, or there might be a temporary problem that will resolve itself soon. You can try refreshing the page in a couple minutes - or <a href="/feedbacks/new" onclick="window.open(this.href);return false;">contact our support team</a> for more help if the problem continues.
+    </p>
+    <p class="mvs">
+      <strong class="h5">Did you lose an achievement?</strong>
+      Take a screenshot first and <a href="/feedbacks/new?game_id=151730&amp;type=MissingAccomplishmentFeedback" onclick="window.open(this.href);return false;">report the missing achievement</a>.
+    </p>
+    <div class="disconnected_spinner"><span class="spinner spinner_big">loading</span></div>
+  </div>
+</div>
+
+</div><!-- kong_game_ui -->
+
+<div class="accomplishment_notifications" style="display:none">
+
+  <div class="achievement_notifications accomplishment_2566">
+  <div class="accomplishment_suggested">
+    <div class="suggestion_box award_feature pbl">
+  <h4 class="suggestion_title">On your way to earn the next badge!</h4>
+  <div class="badge"><div class="badge_image">
+  <img alt="Gibbon Kempo" class="feed_badge" height="36" src="http://cdn3.kongcdn.com/badge_icons/0000/4231/Bloons_TD5_1.jpg" title="Gibbon Kempo" width="36">
+</div>
+<div class="badge_border">
+  <span alt="Gibbon Kempo" class="complete spritegame spriteall" title="Gibbon Kempo">Badge earned</span>
+</div>
+<div class="badge_of_the_day_overlay">
+  <span alt="Gibbon Kempo" class="spriteall botd_badge_id_2116" title="Gibbon Kempo">Badge Of The Day</span>
+</div>
+</div>
+  <p class="badge_header mvm">
+    <strong>Gibbon Kempo Badge</strong>
+    <em>easy - 5 points</em>
+  </p>
+  <dl class="accomplishment_tasks bd">
+    <dd class=" accomplishmenttasks-2983 incomplete accomplishment_task mbs mlm">
+  <span class="check_ico spritegame"></span>
+  Rank 6 Reached
+      <span class="achievement_progress">
+        <span class="initial">0</span>
+        <span class="bar">
+          <span class="marker">
+            <span class="current">0</span>
+          </span>
+        </span>
+        <span class="quota">6</span>
+      </span>
+</dd>
+
+  </dl>
+</div>
+
+  </div>
+  
+  <!-- Accomplishment Completion -->
+  <div class="accomplishment_completed">
+      <div class="award_banner">
+  <div class="reward_tasks">
+    <h4 class="award_title">You just won the <strong>Gibbon Kempo Badge</strong></h4>
+    <div class="badge"><div class="badge_image">
+  <img alt="Gibbon Kempo (completed)" class="feed_badge" height="36" src="http://cdn3.kongcdn.com/badge_icons/0000/4231/Bloons_TD5_1.jpg" title="Gibbon Kempo (completed)" width="36">
+</div>
+<div class="badge_border">
+  <span alt="Gibbon Kempo (completed)" class="complete spritegame spriteall" title="Gibbon Kempo (completed)">Badge earned</span>
+</div>
+<div class="badge_of_the_day_overlay">
+  <span alt="Gibbon Kempo (completed)" class="spriteall botd_badge_id_2116" title="Gibbon Kempo (completed)">Badge Of The Day</span>
+</div>
+</div>
+    <p class="mvm">easy - 5 points</p>
+    <dl class="accomplishment_tasks mtm mbl">  
+      <dd class=" accomplishmenttasks-2983 complete accomplishment_task mbs mlm">
+  <span class="check_ico spritegame"></span>
+  Rank 6 Reached
+      <span class="achievement_progress">
+        <span class="initial">0</span>
+        <span class="bar">
+          <span class="marker">
+            <span class="current">0</span>
+          </span>
+        </span>
+        <span class="quota">6</span>
+      </span>
+</dd>
+
+    </dl>
+  </div>
+  <div class="suggestion_placeholder"></div>
+</div>
+<div class="more_info">
+  <p><a class="spritegame" href="#" onclick="holodeck.recordAnalyticsEvent('Award', 'LearnMore');$(this).hide();$(this).up('.more_info').down('.learn_more').show().highlight();; return false;">Learn more about badges</a></p>
+  <dl class="learn_more mvm mhs" style="display:none;">
+    <dt><strong>What are badges and achievements?</strong></dt>
+    <dd>Besides being awesome, achievements are goals found within games on Kongregate. Load up a game with an achievement and complete the described task to earn points and unlock a badge within your profile, viewable by other users. Unlike challenges, achievements do not expire.</dd>
+  </dl>
+</div>
+
+  </div>
+  <!-- End Accomplishment Completion -->
+
+</div>
+<div class="achievement_notifications accomplishment_2567">
+  <div class="accomplishment_suggested">
+    <div class="suggestion_box award_feature pbl">
+  <h4 class="suggestion_title">On your way to earn the next badge!</h4>
+  <div class="badge"><div class="badge_image">
+  <img alt="Dusting off the Bloons" class="feed_badge" height="36" src="http://cdn1.kongcdn.com/badge_icons/0000/4233/Bloons_TD5_2.jpg" title="Dusting off the Bloons" width="36">
+</div>
+<div class="badge_border">
+  <span alt="Dusting off the Bloons" class="complete spritegame spriteall" title="Dusting off the Bloons">Badge earned</span>
+</div>
+<div class="badge_of_the_day_overlay">
+  <span alt="Dusting off the Bloons" class="spriteall botd_badge_id_2117" title="Dusting off the Bloons">Badge Of The Day</span>
+</div>
+</div>
+  <p class="badge_header mvm">
+    <strong>Dusting off the Bloons Badge</strong>
+    <em>medium - 15 points</em>
+  </p>
+  <dl class="accomplishment_tasks bd">
+    <dd class=" accomplishmenttasks-2984 incomplete accomplishment_task mbs mlm">
+  <span class="check_ico spritegame"></span>
+  Bloons Circles Beat on Easy - Beat any one of these tracks to earn the badge
+      <span class="achievement_progress">
+        <span class="initial">0</span>
+        <span class="bar">
+          <span class="marker">
+            <span class="current">0</span>
+          </span>
+        </span>
+        <span class="quota">50</span>
+      </span>
+</dd>
+<dd class=" accomplishmenttasks-2985 incomplete accomplishment_task mbs mlm">
+  <span class="check_ico spritegame"></span>
+  Archipelago Beat on Easy
+      <span class="achievement_progress">
+        <span class="initial">0</span>
+        <span class="bar">
+          <span class="marker">
+            <span class="current">0</span>
+          </span>
+        </span>
+        <span class="quota">50</span>
+      </span>
+</dd>
+<dd class=" accomplishmenttasks-2986 incomplete accomplishment_task mbs mlm">
+  <span class="check_ico spritegame"></span>
+  Snake River Beat on Easy
+      <span class="achievement_progress">
+        <span class="initial">0</span>
+        <span class="bar">
+          <span class="marker">
+            <span class="current">0</span>
+          </span>
+        </span>
+        <span class="quota">50</span>
+      </span>
+</dd>
+<dd class=" accomplishmenttasks-2987 incomplete accomplishment_task mbs mlm">
+  <span class="check_ico spritegame"></span>
+  Dockside Beat on Easy
+      <span class="achievement_progress">
+        <span class="initial">0</span>
+        <span class="bar">
+          <span class="marker">
+            <span class="current">0</span>
+          </span>
+        </span>
+        <span class="quota">50</span>
+      </span>
+</dd>
+
+  </dl>
+</div>
+
+  </div>
+  
+  <!-- Accomplishment Completion -->
+  <div class="accomplishment_completed">
+      <div class="award_banner">
+  <div class="reward_tasks">
+    <h4 class="award_title">You just won the <strong>Dusting off the Bloons Badge</strong></h4>
+    <div class="badge"><div class="badge_image">
+  <img alt="Dusting off the Bloons (completed)" class="feed_badge" height="36" src="http://cdn1.kongcdn.com/badge_icons/0000/4233/Bloons_TD5_2.jpg" title="Dusting off the Bloons (completed)" width="36">
+</div>
+<div class="badge_border">
+  <span alt="Dusting off the Bloons (completed)" class="complete spritegame spriteall" title="Dusting off the Bloons (completed)">Badge earned</span>
+</div>
+<div class="badge_of_the_day_overlay">
+  <span alt="Dusting off the Bloons (completed)" class="spriteall botd_badge_id_2117" title="Dusting off the Bloons (completed)">Badge Of The Day</span>
+</div>
+</div>
+    <p class="mvm">medium - 15 points</p>
+    <dl class="accomplishment_tasks mtm mbl">  
+      <dd class=" accomplishmenttasks-2984 complete accomplishment_task mbs mlm">
+  <span class="check_ico spritegame"></span>
+  Bloons Circles Beat on Easy - Beat any one of these tracks to earn the badge
+      <span class="achievement_progress">
+        <span class="initial">0</span>
+        <span class="bar">
+          <span class="marker">
+            <span class="current">0</span>
+          </span>
+        </span>
+        <span class="quota">50</span>
+      </span>
+</dd>
+<dd class=" accomplishmenttasks-2985 complete accomplishment_task mbs mlm">
+  <span class="check_ico spritegame"></span>
+  Archipelago Beat on Easy
+      <span class="achievement_progress">
+        <span class="initial">0</span>
+        <span class="bar">
+          <span class="marker">
+            <span class="current">0</span>
+          </span>
+        </span>
+        <span class="quota">50</span>
+      </span>
+</dd>
+<dd class=" accomplishmenttasks-2986 complete accomplishment_task mbs mlm">
+  <span class="check_ico spritegame"></span>
+  Snake River Beat on Easy
+      <span class="achievement_progress">
+        <span class="initial">0</span>
+        <span class="bar">
+          <span class="marker">
+            <span class="current">0</span>
+          </span>
+        </span>
+        <span class="quota">50</span>
+      </span>
+</dd>
+<dd class=" accomplishmenttasks-2987 complete accomplishment_task mbs mlm">
+  <span class="check_ico spritegame"></span>
+  Dockside Beat on Easy
+      <span class="achievement_progress">
+        <span class="initial">0</span>
+        <span class="bar">
+          <span class="marker">
+            <span class="current">0</span>
+          </span>
+        </span>
+        <span class="quota">50</span>
+      </span>
+</dd>
+
+    </dl>
+  </div>
+  <div class="suggestion_placeholder"></div>
+</div>
+<div class="more_info">
+  <p><a class="spritegame" href="#" onclick="holodeck.recordAnalyticsEvent('Award', 'LearnMore');$(this).hide();$(this).up('.more_info').down('.learn_more').show().highlight();; return false;">Learn more about badges</a></p>
+  <dl class="learn_more mvm mhs" style="display:none;">
+    <dt><strong>What are badges and achievements?</strong></dt>
+    <dd>Besides being awesome, achievements are goals found within games on Kongregate. Load up a game with an achievement and complete the described task to earn points and unlock a badge within your profile, viewable by other users. Unlike challenges, achievements do not expire.</dd>
+  </dl>
+</div>
+
+  </div>
+  <!-- End Accomplishment Completion -->
+
+    <div class="task_2984">
+      <!-- Task completion -->
+      <div class="task_completed">
+        Congratulations! You've completed the task Bloons Circles Beat on Easy - Beat any one of these tracks to earn the badge. You're on your way to completing the Dusting off the Bloons.
+      </div>
+      <!-- End task completion -->
+    </div>
+    <div class="task_2985">
+      <!-- Task completion -->
+      <div class="task_completed">
+        Congratulations! You've completed the task Archipelago Beat on Easy. You're on your way to completing the Dusting off the Bloons.
+      </div>
+      <!-- End task completion -->
+    </div>
+    <div class="task_2986">
+      <!-- Task completion -->
+      <div class="task_completed">
+        Congratulations! You've completed the task Snake River Beat on Easy. You're on your way to completing the Dusting off the Bloons.
+      </div>
+      <!-- End task completion -->
+    </div>
+    <div class="task_2987">
+      <!-- Task completion -->
+      <div class="task_completed">
+        Congratulations! You've completed the task Dockside Beat on Easy. You're on your way to completing the Dusting off the Bloons.
+      </div>
+      <!-- End task completion -->
+    </div>
+</div>
+<div class="achievement_notifications accomplishment_2568">
+  <div class="accomplishment_suggested">
+    <div class="suggestion_box award_feature pbl">
+  <h4 class="suggestion_title">On your way to earn the next badge!</h4>
+  <div class="badge"><div class="badge_image">
+  <img alt="Apocalypse Ciao" class="feed_badge" height="36" src="http://cdn4.kongcdn.com/badge_icons/0000/4235/Bloons_TD5_3.jpg" title="Apocalypse Ciao" width="36">
+</div>
+<div class="badge_border">
+  <span alt="Apocalypse Ciao" class="complete spritegame spriteall" title="Apocalypse Ciao">Badge earned</span>
+</div>
+<div class="badge_of_the_day_overlay">
+  <span alt="Apocalypse Ciao" class="spriteall botd_badge_id_2118" title="Apocalypse Ciao">Badge Of The Day</span>
+</div>
+</div>
+  <p class="badge_header mvm">
+    <strong>Apocalypse Ciao Badge</strong>
+    <em>hard - 30 points</em>
+  </p>
+  <dl class="accomplishment_tasks bd">
+    <dd class=" accomplishmenttasks-2988 incomplete accomplishment_task mbs mlm">
+  <span class="check_ico spritegame"></span>
+  Wave 30 Beat on Mount Magma on 'Apopalypse' Difficulty
+      <span class="achievement_progress">
+        <span class="initial">0</span>
+        <span class="bar">
+          <span class="marker">
+            <span class="current">0</span>
+          </span>
+        </span>
+        <span class="quota">30</span>
+      </span>
+</dd>
+
+  </dl>
+</div>
+
+  </div>
+  
+  <!-- Accomplishment Completion -->
+  <div class="accomplishment_completed">
+      <div class="award_banner">
+  <div class="reward_tasks">
+    <h4 class="award_title">You just won the <strong>Apocalypse Ciao Badge</strong></h4>
+    <div class="badge"><div class="badge_image">
+  <img alt="Apocalypse Ciao (completed)" class="feed_badge" height="36" src="http://cdn4.kongcdn.com/badge_icons/0000/4235/Bloons_TD5_3.jpg" title="Apocalypse Ciao (completed)" width="36">
+</div>
+<div class="badge_border">
+  <span alt="Apocalypse Ciao (completed)" class="complete spritegame spriteall" title="Apocalypse Ciao (completed)">Badge earned</span>
+</div>
+<div class="badge_of_the_day_overlay">
+  <span alt="Apocalypse Ciao (completed)" class="spriteall botd_badge_id_2118" title="Apocalypse Ciao (completed)">Badge Of The Day</span>
+</div>
+</div>
+    <p class="mvm">hard - 30 points</p>
+    <dl class="accomplishment_tasks mtm mbl">  
+      <dd class=" accomplishmenttasks-2988 complete accomplishment_task mbs mlm">
+  <span class="check_ico spritegame"></span>
+  Wave 30 Beat on Mount Magma on 'Apopalypse' Difficulty
+      <span class="achievement_progress">
+        <span class="initial">0</span>
+        <span class="bar">
+          <span class="marker">
+            <span class="current">0</span>
+          </span>
+        </span>
+        <span class="quota">30</span>
+      </span>
+</dd>
+
+    </dl>
+  </div>
+  <div class="suggestion_placeholder"></div>
+</div>
+<div class="more_info">
+  <p><a class="spritegame" href="#" onclick="holodeck.recordAnalyticsEvent('Award', 'LearnMore');$(this).hide();$(this).up('.more_info').down('.learn_more').show().highlight();; return false;">Learn more about badges</a></p>
+  <dl class="learn_more mvm mhs" style="display:none;">
+    <dt><strong>What are badges and achievements?</strong></dt>
+    <dd>Besides being awesome, achievements are goals found within games on Kongregate. Load up a game with an achievement and complete the described task to earn points and unlock a badge within your profile, viewable by other users. Unlike challenges, achievements do not expire.</dd>
+  </dl>
+</div>
+
+  </div>
+  <!-- End Accomplishment Completion -->
+
+</div>
+<div class="achievement_notifications accomplishment_2569">
+  <div class="accomplishment_suggested">
+    <div class="suggestion_box award_feature pbl">
+  <h4 class="suggestion_title">On your way to earn the next badge!</h4>
+  <div class="badge"><div class="badge_image">
+  <img alt="Pop Star" class="feed_badge" height="36" src="http://cdn2.kongcdn.com/badge_icons/0000/4237/Bloons_TD5_4.jpg" title="Pop Star" width="36">
+</div>
+<div class="badge_border">
+  <span alt="Pop Star" class="complete spritegame spriteall" title="Pop Star">Badge earned</span>
+</div>
+<div class="badge_of_the_day_overlay">
+  <span alt="Pop Star" class="spriteall botd_badge_id_2119" title="Pop Star">Badge Of The Day</span>
+</div>
+</div>
+  <p class="badge_header mvm">
+    <strong>Pop Star Badge</strong>
+    <em>hard - 30 points</em>
+  </p>
+  <dl class="accomplishment_tasks bd">
+    <dd class=" accomplishmenttasks-2989 incomplete accomplishment_task mbs mlm">
+  <span class="check_ico spritegame"></span>
+  Castle Beat on Hard - beat any one of these tracks to earn the badge
+      <span class="achievement_progress">
+        <span class="initial">0</span>
+        <span class="bar">
+          <span class="marker">
+            <span class="current">0</span>
+          </span>
+        </span>
+        <span class="quota">85</span>
+      </span>
+</dd>
+<dd class=" accomplishmenttasks-2990 incomplete accomplishment_task mbs mlm">
+  <span class="check_ico spritegame"></span>
+  Death Valley Beat on Hard
+      <span class="achievement_progress">
+        <span class="initial">0</span>
+        <span class="bar">
+          <span class="marker">
+            <span class="current">0</span>
+          </span>
+        </span>
+        <span class="quota">85</span>
+      </span>
+</dd>
+<dd class=" accomplishmenttasks-2991 incomplete accomplishment_task mbs mlm">
+  <span class="check_ico spritegame"></span>
+  Clock Beat on Hard
+      <span class="achievement_progress">
+        <span class="initial">0</span>
+        <span class="bar">
+          <span class="marker">
+            <span class="current">0</span>
+          </span>
+        </span>
+        <span class="quota">85</span>
+      </span>
+</dd>
+<dd class=" accomplishmenttasks-2992 incomplete accomplishment_task mbs mlm">
+  <span class="check_ico spritegame"></span>
+  Drag Strip Beat on Hard
+      <span class="achievement_progress">
+        <span class="initial">0</span>
+        <span class="bar">
+          <span class="marker">
+            <span class="current">0</span>
+          </span>
+        </span>
+        <span class="quota">85</span>
+      </span>
+</dd>
+
+  </dl>
+</div>
+
+  </div>
+  
+  <!-- Accomplishment Completion -->
+  <div class="accomplishment_completed">
+      <div class="award_banner">
+  <div class="reward_tasks">
+    <h4 class="award_title">You just won the <strong>Pop Star Badge</strong></h4>
+    <div class="badge"><div class="badge_image">
+  <img alt="Pop Star (completed)" class="feed_badge" height="36" src="http://cdn2.kongcdn.com/badge_icons/0000/4237/Bloons_TD5_4.jpg" title="Pop Star (completed)" width="36">
+</div>
+<div class="badge_border">
+  <span alt="Pop Star (completed)" class="complete spritegame spriteall" title="Pop Star (completed)">Badge earned</span>
+</div>
+<div class="badge_of_the_day_overlay">
+  <span alt="Pop Star (completed)" class="spriteall botd_badge_id_2119" title="Pop Star (completed)">Badge Of The Day</span>
+</div>
+</div>
+    <p class="mvm">hard - 30 points</p>
+    <dl class="accomplishment_tasks mtm mbl">  
+      <dd class=" accomplishmenttasks-2989 complete accomplishment_task mbs mlm">
+  <span class="check_ico spritegame"></span>
+  Castle Beat on Hard - beat any one of these tracks to earn the badge
+      <span class="achievement_progress">
+        <span class="initial">0</span>
+        <span class="bar">
+          <span class="marker">
+            <span class="current">0</span>
+          </span>
+        </span>
+        <span class="quota">85</span>
+      </span>
+</dd>
+<dd class=" accomplishmenttasks-2990 complete accomplishment_task mbs mlm">
+  <span class="check_ico spritegame"></span>
+  Death Valley Beat on Hard
+      <span class="achievement_progress">
+        <span class="initial">0</span>
+        <span class="bar">
+          <span class="marker">
+            <span class="current">0</span>
+          </span>
+        </span>
+        <span class="quota">85</span>
+      </span>
+</dd>
+<dd class=" accomplishmenttasks-2991 complete accomplishment_task mbs mlm">
+  <span class="check_ico spritegame"></span>
+  Clock Beat on Hard
+      <span class="achievement_progress">
+        <span class="initial">0</span>
+        <span class="bar">
+          <span class="marker">
+            <span class="current">0</span>
+          </span>
+        </span>
+        <span class="quota">85</span>
+      </span>
+</dd>
+<dd class=" accomplishmenttasks-2992 complete accomplishment_task mbs mlm">
+  <span class="check_ico spritegame"></span>
+  Drag Strip Beat on Hard
+      <span class="achievement_progress">
+        <span class="initial">0</span>
+        <span class="bar">
+          <span class="marker">
+            <span class="current">0</span>
+          </span>
+        </span>
+        <span class="quota">85</span>
+      </span>
+</dd>
+
+    </dl>
+  </div>
+  <div class="suggestion_placeholder"></div>
+</div>
+<div class="more_info">
+  <p><a class="spritegame" href="#" onclick="holodeck.recordAnalyticsEvent('Award', 'LearnMore');$(this).hide();$(this).up('.more_info').down('.learn_more').show().highlight();; return false;">Learn more about badges</a></p>
+  <dl class="learn_more mvm mhs" style="display:none;">
+    <dt><strong>What are badges and achievements?</strong></dt>
+    <dd>Besides being awesome, achievements are goals found within games on Kongregate. Load up a game with an achievement and complete the described task to earn points and unlock a badge within your profile, viewable by other users. Unlike challenges, achievements do not expire.</dd>
+  </dl>
+</div>
+
+  </div>
+  <!-- End Accomplishment Completion -->
+
+    <div class="task_2989">
+      <!-- Task completion -->
+      <div class="task_completed">
+        Congratulations! You've completed the task Castle Beat on Hard - beat any one of these tracks to earn the badge. You're on your way to completing the Pop Star.
+      </div>
+      <!-- End task completion -->
+    </div>
+    <div class="task_2990">
+      <!-- Task completion -->
+      <div class="task_completed">
+        Congratulations! You've completed the task Death Valley Beat on Hard. You're on your way to completing the Pop Star.
+      </div>
+      <!-- End task completion -->
+    </div>
+    <div class="task_2991">
+      <!-- Task completion -->
+      <div class="task_completed">
+        Congratulations! You've completed the task Clock Beat on Hard. You're on your way to completing the Pop Star.
+      </div>
+      <!-- End task completion -->
+    </div>
+    <div class="task_2992">
+      <!-- Task completion -->
+      <div class="task_completed">
+        Congratulations! You've completed the task Drag Strip Beat on Hard. You're on your way to completing the Pop Star.
+      </div>
+      <!-- End task completion -->
+    </div>
+</div>
+
+
+  <div id="accomplishment_group_completion_tab_content_33">
+    <div class="award_banner ptl">
+      <div class="award_feature">
+        <h2 class="award_title mbm pan"><strong>Congratulations!</strong> You’ve earned the last badge to complete the <a href="/badge_quests/best_of_2012" onclick="window.open(this.href);return false;">Best of 2012 Quest</a>.</h2>
+          <img alt="Medal_2012" height="90" src="http://cdn4.kongcdn.com/assets/raffle_images/0000/0079/medal_2012.png" width="130">
+        <p class="mtm"><a href="/badges" onclick="window.open(this.href);return false;">Find more quests to complete »</a></p>
+      </div>
+    </div>
+</div>
+
+  
+  <div id="suggestibles">
+  </div>
+  
+  <div class="claim_award_box award_feature pbl">
+  <h3 class="suggestion_title">Register now to claim your <span class="prize_name"></span>!</h3>
+  <ul class="registration_benefits mal pls">
+    <li class="mbm"><span class="kong_ico" aria-hidden="true">y</span>Get personalized game recommendations</li>
+    <li class="mbm"><span class="kong_ico" aria-hidden="true">c</span>Participate in chat and forums</li>
+    <li><span class="kong_ico" aria-hidden="true">a</span>Collect badges, level up, <br>and more!</li>
+  </ul>
+  <p class="mbm"><input class="btn btn_action btn_lrg" onclick="holodeck.showSignupTab();" type="button" value="Register Now"></p>
+  <p><strong><a href="#" onclick="active_user.activateInlineLogin(); return false;">Already a user? Log in »</a></strong></p>
+</div>
+</div>
+</div>
+                    <script id="accomplishments_tab_pane_template" type="text/html">
+                      <div id="accomplishments_tab_content">
+                          <h3 id="accomplishments_pane_title">
+  <span class="no_accomplishments_completed">Four achievements &amp; 80 points to earn!</span>
+  <span class="some_accomplishments_completed" style="display:none;">You have earned <span class="earned_accomplishments_count"></span> of 4 achievements</span>
+  <span class="all_accomplishments_completed" style="display:none;">You have earned all achievements!</span>
+</h3>
+<p class="question_icon what_are_achievements_icon" title="What are achievements?" style="display:none;"><a href="/pages/help#earningcards" class="spritegame spriteall" onclick="window.open(this.href);return false;">What are achievements?</a></p>
+  <div class="high_scores clear mbs"><a href="#" onclick="holodeck.showHighScores();; return false;">View High Scores &raquo;</a></div>
+
+<ul id="accomplishment_vtab_set" class="accomplishment_vtabs">
+  
+  <li class="vtab">
+  <a href="#achievements-2566">
+      <div class="badge"><div class="badge_image">
+  <img alt="Gibbon Kempo" class="feed_badge" height="36" src="http://cdn3.kongcdn.com/badge_icons/0000/4231/Bloons_TD5_1.jpg" title="Gibbon Kempo" width="36" />
+</div>
+<div class="badge_border">
+  <span alt="Gibbon Kempo" class="complete spritegame spriteall" title="Gibbon Kempo">Badge earned</span>
+</div>
+<div class="badge_of_the_day_overlay">
+  <span alt="Gibbon Kempo" class="spriteall botd_badge_id_2116" title="Gibbon Kempo">Badge Of The Day</span>
+</div>
+</div>
+    <p>easy</p>
+  </a>
+</li>
+<li class="vtab">
+  <a href="#achievements-2567">
+      <div class="badge"><div class="badge_image">
+  <img alt="Dusting off the Bloons" class="feed_badge" height="36" src="http://cdn1.kongcdn.com/badge_icons/0000/4233/Bloons_TD5_2.jpg" title="Dusting off the Bloons" width="36" />
+</div>
+<div class="badge_border">
+  <span alt="Dusting off the Bloons" class="complete spritegame spriteall" title="Dusting off the Bloons">Badge earned</span>
+</div>
+<div class="badge_of_the_day_overlay">
+  <span alt="Dusting off the Bloons" class="spriteall botd_badge_id_2117" title="Dusting off the Bloons">Badge Of The Day</span>
+</div>
+</div>
+    <p>medium</p>
+  </a>
+</li>
+<li class="vtab">
+  <a href="#achievements-2568">
+      <div class="badge"><div class="badge_image">
+  <img alt="Apocalypse Ciao" class="feed_badge" height="36" src="http://cdn4.kongcdn.com/badge_icons/0000/4235/Bloons_TD5_3.jpg" title="Apocalypse Ciao" width="36" />
+</div>
+<div class="badge_border">
+  <span alt="Apocalypse Ciao" class="complete spritegame spriteall" title="Apocalypse Ciao">Badge earned</span>
+</div>
+<div class="badge_of_the_day_overlay">
+  <span alt="Apocalypse Ciao" class="spriteall botd_badge_id_2118" title="Apocalypse Ciao">Badge Of The Day</span>
+</div>
+</div>
+    <p>hard</p>
+  </a>
+</li>
+<li class="vtab">
+  <a href="#achievements-2569">
+      <div class="badge"><div class="badge_image">
+  <img alt="Pop Star" class="feed_badge" height="36" src="http://cdn2.kongcdn.com/badge_icons/0000/4237/Bloons_TD5_4.jpg" title="Pop Star" width="36" />
+</div>
+<div class="badge_border">
+  <span alt="Pop Star" class="complete spritegame spriteall" title="Pop Star">Badge earned</span>
+</div>
+<div class="badge_of_the_day_overlay">
+  <span alt="Pop Star" class="spriteall botd_badge_id_2119" title="Pop Star">Badge Of The Day</span>
+</div>
+</div>
+    <p>hard</p>
+  </a>
+</li>
+
+</ul>
+
+<!-- .game_accomplishments -->
+<div class="game_accomplishment accomplishment_vtabpane_content" id="achievements-2566" style="height:516px">
+
+  <div class="accomplishment_vtabpane_inner">
+    <div class="accomplishment_signin cntrNotify mts" style="display:none;">
+      <a href="#" onclick="holodeck.showSignupTab(); return false;">Register</a>
+      or 
+      <a href="#" onclick="active_user.activateInlineLogin(); return false;">Sign in</a>
+      <p>to <strong>collect badges</strong>, track your progress and chat with friends.</p>
+      <em class="mll mts">&#187; <a href="/pages/help#achievements" onclick="window.open(this.href);return false;">What are badges?</a></em>
+    </div>
+    
+    <div class="accomplishment_header">
+      <h4>Gibbon Kempo Badge </h4>
+      <em class="accomplishment_reward">&#40;5 points - 713,933 awarded&#41;</em>
+    </div>
+    
+    <p class="task_desc">Reach rank 6 and unlock the ninja monkey</p>
+    
+    <div class="accomplishment_desc pbs">
+        <dl class="accomplishment_tasks">
+            <dt class="h5 mtm mbs">Goal Checklist&#58;</dt>  
+            <dd class=" accomplishmenttasks-2983 incomplete accomplishment_task mbs mlm">
+  <span class="check_ico spritegame"></span>
+  Rank 6 Reached
+      <span class="achievement_progress">
+        <span class="initial">0</span>
+        <span class="bar">
+          <span class="marker">
+            <span class="current">0</span>
+          </span>
+        </span>
+        <span class="quota">6</span>
+      </span>
+</dd>
+
+        </dl>
+    </div>
+
+  </div><!-- accomplishment_vtabpane_inner -->
+
+
+  <div class="clear"></div>
+
+</div><!-- /.game_accomplishment -->
+<!-- .game_accomplishments -->
+<div class="game_accomplishment accomplishment_vtabpane_content" id="achievements-2567" style="height:516px">
+
+  <div class="accomplishment_vtabpane_inner">
+    <div class="accomplishment_signin cntrNotify mts" style="display:none;">
+      <a href="#" onclick="holodeck.showSignupTab(); return false;">Register</a>
+      or 
+      <a href="#" onclick="active_user.activateInlineLogin(); return false;">Sign in</a>
+      <p>to <strong>collect badges</strong>, track your progress and chat with friends.</p>
+      <em class="mll mts">&#187; <a href="/pages/help#achievements" onclick="window.open(this.href);return false;">What are badges?</a></em>
+    </div>
+    
+    <div class="accomplishment_header">
+      <h4>Dusting off the Bloons Badge </h4>
+        <p class="part_of_quest">Part of the <a href="/badge_quests/best_of_2012" onclick="window.open(this.href);return false;">Best of 2012</a> quest.</p>
+      <em class="accomplishment_reward">&#40;15 points - 230,893 awarded&#41;</em>
+    </div>
+    
+    <p class="task_desc">Complete wave 50 on any intermediate track on 'easy' difficulty</p>
+    
+    <div class="accomplishment_desc pbs">
+        <dl class="accomplishment_tasks">
+            <dt class="h5 mtm mbs">Goal Checklist&#58;</dt>  
+            <dd class=" accomplishmenttasks-2984 incomplete accomplishment_task mbs mlm">
+  <span class="check_ico spritegame"></span>
+  Bloons Circles Beat on Easy - Beat any one of these tracks to earn the badge
+      <span class="achievement_progress">
+        <span class="initial">0</span>
+        <span class="bar">
+          <span class="marker">
+            <span class="current">0</span>
+          </span>
+        </span>
+        <span class="quota">50</span>
+      </span>
+</dd>
+<dd class=" accomplishmenttasks-2985 incomplete accomplishment_task mbs mlm">
+  <span class="check_ico spritegame"></span>
+  Archipelago Beat on Easy
+      <span class="achievement_progress">
+        <span class="initial">0</span>
+        <span class="bar">
+          <span class="marker">
+            <span class="current">0</span>
+          </span>
+        </span>
+        <span class="quota">50</span>
+      </span>
+</dd>
+<dd class=" accomplishmenttasks-2986 incomplete accomplishment_task mbs mlm">
+  <span class="check_ico spritegame"></span>
+  Snake River Beat on Easy
+      <span class="achievement_progress">
+        <span class="initial">0</span>
+        <span class="bar">
+          <span class="marker">
+            <span class="current">0</span>
+          </span>
+        </span>
+        <span class="quota">50</span>
+      </span>
+</dd>
+<dd class=" accomplishmenttasks-2987 incomplete accomplishment_task mbs mlm">
+  <span class="check_ico spritegame"></span>
+  Dockside Beat on Easy
+      <span class="achievement_progress">
+        <span class="initial">0</span>
+        <span class="bar">
+          <span class="marker">
+            <span class="current">0</span>
+          </span>
+        </span>
+        <span class="quota">50</span>
+      </span>
+</dd>
+
+        </dl>
+    </div>
+
+  </div><!-- accomplishment_vtabpane_inner -->
+
+
+  <div class="clear"></div>
+
+</div><!-- /.game_accomplishment -->
+<!-- .game_accomplishments -->
+<div class="game_accomplishment accomplishment_vtabpane_content" id="achievements-2568" style="height:516px">
+
+  <div class="accomplishment_vtabpane_inner">
+    <div class="accomplishment_signin cntrNotify mts" style="display:none;">
+      <a href="#" onclick="holodeck.showSignupTab(); return false;">Register</a>
+      or 
+      <a href="#" onclick="active_user.activateInlineLogin(); return false;">Sign in</a>
+      <p>to <strong>collect badges</strong>, track your progress and chat with friends.</p>
+      <em class="mll mts">&#187; <a href="/pages/help#achievements" onclick="window.open(this.href);return false;">What are badges?</a></em>
+    </div>
+    
+    <div class="accomplishment_header">
+      <h4>Apocalypse Ciao Badge </h4>
+      <em class="accomplishment_reward">&#40;30 points - 43,578 awarded&#41;</em>
+    </div>
+    
+    <p class="task_desc">Beat wave 30 on the Mount Magma track on the 'apopalypse' difficulty</p>
+    
+    <div class="accomplishment_desc pbs">
+        <dl class="accomplishment_tasks">
+            <dt class="h5 mtm mbs">Goal Checklist&#58;</dt>  
+            <dd class=" accomplishmenttasks-2988 incomplete accomplishment_task mbs mlm">
+  <span class="check_ico spritegame"></span>
+  Wave 30 Beat on Mount Magma on &#x27;Apopalypse&#x27; Difficulty
+      <span class="achievement_progress">
+        <span class="initial">0</span>
+        <span class="bar">
+          <span class="marker">
+            <span class="current">0</span>
+          </span>
+        </span>
+        <span class="quota">30</span>
+      </span>
+</dd>
+
+        </dl>
+    </div>
+
+  </div><!-- accomplishment_vtabpane_inner -->
+
+
+  <div class="clear"></div>
+
+</div><!-- /.game_accomplishment -->
+<!-- .game_accomplishments -->
+<div class="game_accomplishment accomplishment_vtabpane_content" id="achievements-2569" style="height:516px">
+
+  <div class="accomplishment_vtabpane_inner">
+    <div class="accomplishment_signin cntrNotify mts" style="display:none;">
+      <a href="#" onclick="holodeck.showSignupTab(); return false;">Register</a>
+      or 
+      <a href="#" onclick="active_user.activateInlineLogin(); return false;">Sign in</a>
+      <p>to <strong>collect badges</strong>, track your progress and chat with friends.</p>
+      <em class="mll mts">&#187; <a href="/pages/help#achievements" onclick="window.open(this.href);return false;">What are badges?</a></em>
+    </div>
+    
+    <div class="accomplishment_header">
+      <h4>Pop Star Badge </h4>
+      <em class="accomplishment_reward">&#40;30 points - 24,758 awarded&#41;</em>
+    </div>
+    
+    <p class="task_desc">Complete wave 85 on any expert track on 'hard' difficulty</p>
+    
+    <div class="accomplishment_desc pbs">
+        <dl class="accomplishment_tasks">
+            <dt class="h5 mtm mbs">Goal Checklist&#58;</dt>  
+            <dd class=" accomplishmenttasks-2989 incomplete accomplishment_task mbs mlm">
+  <span class="check_ico spritegame"></span>
+  Castle Beat on Hard - beat any one of these tracks to earn the badge
+      <span class="achievement_progress">
+        <span class="initial">0</span>
+        <span class="bar">
+          <span class="marker">
+            <span class="current">0</span>
+          </span>
+        </span>
+        <span class="quota">85</span>
+      </span>
+</dd>
+<dd class=" accomplishmenttasks-2990 incomplete accomplishment_task mbs mlm">
+  <span class="check_ico spritegame"></span>
+  Death Valley Beat on Hard
+      <span class="achievement_progress">
+        <span class="initial">0</span>
+        <span class="bar">
+          <span class="marker">
+            <span class="current">0</span>
+          </span>
+        </span>
+        <span class="quota">85</span>
+      </span>
+</dd>
+<dd class=" accomplishmenttasks-2991 incomplete accomplishment_task mbs mlm">
+  <span class="check_ico spritegame"></span>
+  Clock Beat on Hard
+      <span class="achievement_progress">
+        <span class="initial">0</span>
+        <span class="bar">
+          <span class="marker">
+            <span class="current">0</span>
+          </span>
+        </span>
+        <span class="quota">85</span>
+      </span>
+</dd>
+<dd class=" accomplishmenttasks-2992 incomplete accomplishment_task mbs mlm">
+  <span class="check_ico spritegame"></span>
+  Drag Strip Beat on Hard
+      <span class="achievement_progress">
+        <span class="initial">0</span>
+        <span class="bar">
+          <span class="marker">
+            <span class="current">0</span>
+          </span>
+        </span>
+        <span class="quota">85</span>
+      </span>
+</dd>
+
+        </dl>
+    </div>
+
+  </div><!-- accomplishment_vtabpane_inner -->
+
+
+  <div class="clear"></div>
+
+</div><!-- /.game_accomplishment -->
+
+
+<div id="holodeck_chat_promotion" class="chat_promotion">
+  <a class="spritegame" href="#" onclick="holodeck.showChatTab(); return false;">Join 0 people in chat right now!</a>
+</div>
+
+                      </div>
+                      <div id="high_scores_container" style="display:none;">
+                        <div class="view_achievements"><a href="#" onclick="holodeck.hideHighScores();; return false;">View achievements &raquo;</a></div>
+                        <div id="high_scores">
+                        </div>
+                      </div>
+                      <div id="high_scores_spinner" style="display:none;">
+                        <span class="spinner spinner_big">loading</span>
+                      </div>
+                    </script>
+                    <script type="text/html" id="game_tab_pane_template">
+                      <!-- #game_info -->
+<div id="game_info_panel" class="collapsible_panel">
+  <p class="panel_handle spritegame closed_link mts"><a>Info</a></p>
+  <div id="game_info" class="panel_body cntrToggle media" style="display:none">
+    <h3 class="mbs hasLayout">Bloons TD 5</h3>
+
+    <div class="creatorinfo unit size1of2 hasLayout">
+      <em>Created by:</em>
+      <p class="media">
+        <a href="http://www.kongregate.com/accounts/Ninjakiwi" class="imgMini"><img alt="avatar for Ninjakiwi" class="user_avatar " height="16" src="http://cdn3.kongcdn.com/user_avatars/0001/3882/Ninjakiwi_chat.jpg?1254-op" title="Ninjakiwi" width="16" /></a>
+        <a href="http://www.kongregate.com/accounts/Ninjakiwi" class="bd" onclick="window.open(this.href);return false;">Ninjakiwi</a>
+      </p>
+            <div id="collaborations-19139">
+<p class="media">
+  <a href="http://www.kongregate.com/accounts/AaronNinjaKiwi" class="hover_profile imgMini"><img alt="avatar for AaronNinjaKiwi" class="user_avatar user_avatar" height="16" src="http://cdn4.kongcdn.com/user_avatars/0751/0446/nk_chat.jpg?1062-op" title="AaronNinjaKiwi" width="16" /></a>
+  <a href="http://www.kongregate.com/accounts/AaronNinjaKiwi" class="hover_profile bd" onclick="window.open(this.href);return false;">AaronNinjaKiwi</a>
+  
+</p>
+</div>
+
+            <div id="collaborations-19178">
+<p class="media">
+  <a href="http://www.kongregate.com/accounts/ToshNinjaKiwi" class="hover_profile imgMini"><img alt="avatar for ToshNinjaKiwi" class="user_avatar user_avatar" height="16" src="http://cdn3.kongcdn.com/assets/resize-image/16x16/assets/avatars/defaults/robotboy.png" title="ToshNinjaKiwi" width="16" /></a>
+  <a href="http://www.kongregate.com/accounts/ToshNinjaKiwi" class="hover_profile bd" onclick="window.open(this.href);return false;">ToshNinjaKiwi</a>
+  
+</p>
+</div>
+
+    </div>
+
+    <div id="game_rating" class="gamerating unit size1of2 lastUnit hasLayout">
+      <em id="rating_message">Rate this game:</em>
+      <div id="user_star_rating">
+        <div id="star_ratings_block">
+          <!--[if lte IE 7]><span class="inlinefix">.</span><![endif]--><span class="spinner" id="rating-indicator" style="display:none" title="loading&hellip;">&#8203;</span><ul id="star-rating-151730" class="star-rating spritegame"> <!-- leave inline for IE -->
+
+  <li><a class="star-1" href="/ratings" onclick="if (      (function() {
+        if(!active_user.hasRequiredPlugins()){
+          var msg = &#x27;You must have the Flash plugin installed to rate this game.&#x27;
+          $(&#x27;rating_message&#x27;).update(msg);
+          return false;
+        } else {
+          return true;
+        }
+      })()
+) { $$(&#x27;#star-rating-151730&#x27;).each(Element.hide); Element.show(&#x27;rating-indicator&#x27;);; new Ajax.Request(this.href, {asynchronous:true, evalScripts:true, onComplete:function(request){$$(&#x27;#star-rating-151730 a&#x27;).each(Element.show); Element.hide(&#x27;rating-indicator&#x27;); holodeck.recordAnalyticsEvent(&#x27;Game&#x27;, &#x27;Rate&#x27;);;}, parameters:&quot;prefix=\u0026rateable_id=151730\u0026rateable_type=Game\u0026rating=1\u0026star_rating_class=star-rating&quot; + &#x27;&amp;authenticity_token=&#x27; + encodeURIComponent(&#x27;kq4nYcp96l9bFFwdI1XuH4WqXkkWQ44GKkyZSovoVN4=&#x27;)}); }; return false;" title="Hated it">1</a></li>
+  <li><a class="star-2" href="/ratings" onclick="if (      (function() {
+        if(!active_user.hasRequiredPlugins()){
+          var msg = &#x27;You must have the Flash plugin installed to rate this game.&#x27;
+          $(&#x27;rating_message&#x27;).update(msg);
+          return false;
+        } else {
+          return true;
+        }
+      })()
+) { $$(&#x27;#star-rating-151730&#x27;).each(Element.hide); Element.show(&#x27;rating-indicator&#x27;);; new Ajax.Request(this.href, {asynchronous:true, evalScripts:true, onComplete:function(request){$$(&#x27;#star-rating-151730 a&#x27;).each(Element.show); Element.hide(&#x27;rating-indicator&#x27;); holodeck.recordAnalyticsEvent(&#x27;Game&#x27;, &#x27;Rate&#x27;);;}, parameters:&quot;prefix=\u0026rateable_id=151730\u0026rateable_type=Game\u0026rating=2\u0026star_rating_class=star-rating&quot; + &#x27;&amp;authenticity_token=&#x27; + encodeURIComponent(&#x27;kq4nYcp96l9bFFwdI1XuH4WqXkkWQ44GKkyZSovoVN4=&#x27;)}); }; return false;" title="Didn&#x27;t like it">2</a></li>
+  <li><a class="star-3" href="/ratings" onclick="if (      (function() {
+        if(!active_user.hasRequiredPlugins()){
+          var msg = &#x27;You must have the Flash plugin installed to rate this game.&#x27;
+          $(&#x27;rating_message&#x27;).update(msg);
+          return false;
+        } else {
+          return true;
+        }
+      })()
+) { $$(&#x27;#star-rating-151730&#x27;).each(Element.hide); Element.show(&#x27;rating-indicator&#x27;);; new Ajax.Request(this.href, {asynchronous:true, evalScripts:true, onComplete:function(request){$$(&#x27;#star-rating-151730 a&#x27;).each(Element.show); Element.hide(&#x27;rating-indicator&#x27;); holodeck.recordAnalyticsEvent(&#x27;Game&#x27;, &#x27;Rate&#x27;);;}, parameters:&quot;prefix=\u0026rateable_id=151730\u0026rateable_type=Game\u0026rating=3\u0026star_rating_class=star-rating&quot; + &#x27;&amp;authenticity_token=&#x27; + encodeURIComponent(&#x27;kq4nYcp96l9bFFwdI1XuH4WqXkkWQ44GKkyZSovoVN4=&#x27;)}); }; return false;" title="Liked it">3</a></li>
+  <li><a class="star-4" href="/ratings" onclick="if (      (function() {
+        if(!active_user.hasRequiredPlugins()){
+          var msg = &#x27;You must have the Flash plugin installed to rate this game.&#x27;
+          $(&#x27;rating_message&#x27;).update(msg);
+          return false;
+        } else {
+          return true;
+        }
+      })()
+) { $$(&#x27;#star-rating-151730&#x27;).each(Element.hide); Element.show(&#x27;rating-indicator&#x27;);; new Ajax.Request(this.href, {asynchronous:true, evalScripts:true, onComplete:function(request){$$(&#x27;#star-rating-151730 a&#x27;).each(Element.show); Element.hide(&#x27;rating-indicator&#x27;); holodeck.recordAnalyticsEvent(&#x27;Game&#x27;, &#x27;Rate&#x27;);;}, parameters:&quot;prefix=\u0026rateable_id=151730\u0026rateable_type=Game\u0026rating=4\u0026star_rating_class=star-rating&quot; + &#x27;&amp;authenticity_token=&#x27; + encodeURIComponent(&#x27;kq4nYcp96l9bFFwdI1XuH4WqXkkWQ44GKkyZSovoVN4=&#x27;)}); }; return false;" title="Really liked it">4</a></li>
+  <li><a class="star-5" href="/ratings" onclick="if (      (function() {
+        if(!active_user.hasRequiredPlugins()){
+          var msg = &#x27;You must have the Flash plugin installed to rate this game.&#x27;
+          $(&#x27;rating_message&#x27;).update(msg);
+          return false;
+        } else {
+          return true;
+        }
+      })()
+) { $$(&#x27;#star-rating-151730&#x27;).each(Element.hide); Element.show(&#x27;rating-indicator&#x27;);; new Ajax.Request(this.href, {asynchronous:true, evalScripts:true, onComplete:function(request){$$(&#x27;#star-rating-151730 a&#x27;).each(Element.show); Element.hide(&#x27;rating-indicator&#x27;); holodeck.recordAnalyticsEvent(&#x27;Game&#x27;, &#x27;Rate&#x27;);;}, parameters:&quot;prefix=\u0026rateable_id=151730\u0026rateable_type=Game\u0026rating=5\u0026star_rating_class=star-rating&quot; + &#x27;&amp;authenticity_token=&#x27; + encodeURIComponent(&#x27;kq4nYcp96l9bFFwdI1XuH4WqXkkWQ44GKkyZSovoVN4=&#x27;)}); }; return false;" title="Loved it">5</a></li>
+</ul>
+
+        </div>
+      </div>
+      <p class="average_rating" id="game_tab_game_ratings_size"></p>
+      <p class="gameplays"><span class="gameplays_count"></span>&nbsp;plays</p>
+    </div>
+
+    <div class="media clear">
+      <ul id="game_actions_favorites" class="contributetools unit size1of2 mts">
+        <li class="share spritegame">
+          <a href="#" onclick="holodeck.recordAnalyticsEvent(&#x27;Quick&#x27;, &#x27;Share&#x27;);holodeck.showShareTab(); return false;">Share game</a>
+        </li>
+        <li class="favorite spritegame" id="favorite_game">
+            <a class="user_specific" href="/accounts/KongregateHolodeckTemplateUsername/favorites?game_id=151730" id="favorite_link" onclick="$(&#x27;favorite_link&#x27;).hide(); $(&#x27;favorite_indicator&#x27;).show(); new Ajax.Request(this.href, {asynchronous:true, evalScripts:true, method:&#x27;post&#x27;, onComplete:function(request){holodeck.recordAnalyticsEvent(&#x27;Game&#x27;, &#x27;Favorite&#x27;);}, parameters:&#x27;authenticity_token=&#x27; + encodeURIComponent(&#x27;kq4nYcp96l9bFFwdI1XuH4WqXkkWQ44GKkyZSovoVN4=&#x27;)}); return false;"><span class='kong_ico' aria-hidden='true'>l </span>Favorite</a> <!--[if lte IE 7]><span class="inlinefix">.</span><![endif]-->
+<span class="spinner" id="favorite_indicator" style="display:none" title="loading&hellip;">&#8203;</span>
+
+            <span class="favorites_count_indicator"><span class="favorites_count"></span>&nbsp;Favorites</span>
+        </li>
+      </ul>
+      <ul id="game_actions" class="contributetools unit size1of2 lastUnit mts">
+          <li class="bug_game spritegame">
+            <form action="/feedbacks/new" method="POST" onsubmit="      var logJson = Object.toJSON(holodeck.alertLog());
+      $$(&#x27;.bug_report_log&#x27;).each(function(ele) { ele.value = logJson; });
+      holodeck.recordAnalyticsEvent(&#x27;Game_Bug&#x27;, &#x27;Bug&#x27;);
+      return true;
+" target="_blank"><input name="game_id" type="hidden" value="151730" /><input class="bug_report_log" name="log" type="hidden" /><a href="#" onclick="var f=this.up(&#x27;form&#x27;);if(f.onsubmit()){f.submit()}; return false;"><span class='kong_ico' aria-hidden='true'>i </span>Game bug</a></form>
+          </li>
+        <li class="flag_game spritegame" id="flag_game_holder">
+          <a href="http://www.kongregate.com/games/Ninjakiwi/bloons-td-5/flags" onclick="Element.show(&#x27;flag_indicator&#x27;); new Ajax.Updater(&#x27;flag_game_holder&#x27;, this.href, {asynchronous:true, evalScripts:true, onComplete:function(request){holodeck.recordAnalyticsEvent(&#x27;Game&#x27;, &#x27;Flag&#x27;); Element.update(&#x27;game_flag&#x27;, &#x27;Game flagged&#x27;); Element.hide(&#x27;flag_indicator&#x27;);}, parameters:&#x27;authenticity_token=&#x27; + encodeURIComponent(&#x27;kq4nYcp96l9bFFwdI1XuH4WqXkkWQ44GKkyZSovoVN4=&#x27;)}); return false;" rel="nofollow">Flag this game</a>
+          <span class="spinner" id="flag_indicator" style="display:none" title="loading&hellip;">&#8203;</span>
+        </li>
+    </ul>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- #game_description -->
+<div id="game_description_panel" class="collapsible_panel">
+  <p class="panel_handle mvs spritegame closed_link"><a>Description</a></p>
+  <div id="game_description" class="panel_body cntrToggle splittext smltxt-reset" style="display:none">
+    <div class="show_more_text_block"><div class="truncated_text"><p >Bloons TD 5 has heaps of new features including all of your favourite towers from BTD4 with 8 awesom&hellip;</p><a class="show_more spritegame" href="#" onclick="    $(this).up(&#x27;.truncated_text&#x27;).hide();
+    $(this).up(&#x27;.show_more_text_block&#x27;).down(&#x27;.full_text&#x27;).show();
+; return false;">show more</a></div><div class="full_text" style="display:none;"><p>Bloons TD 5 has heaps of new features including all of your favourite towers from BTD4 with 8 awesome upgrades each instead of 4, and two brand new never before seen tower types. So much new awesome: tower upgrades with cool Super Activated Abilities, new Bloon types, fun new tracks with moving parts and tunnels, powerful Special Agent towers, Specialty Buildings, daily rewards, and daily challenges &#8211; a fun new challenge to play each and every day! Updates are coming all the time, so keep coming back to check out all of the new awesomeness. Have fun!</p><a class="show_less spritegame" href="#" onclick="    $(this).up(&#x27;.full_text&#x27;).hide();
+    $(this).up(&#x27;.show_more_text_block&#x27;).down(&#x27;.truncated_text&#x27;).show();
+; return false;">show less</a></div></div>
+  </div>
+</div>
+
+<!-- #game_system_requirements -->
+
+<!-- #game_updates -->
+  <div id="game_updates_panel" class="collapsible_panel">
+    <p class="panel_handle mvs spritegame closed_link"><a>Game News</a></p>
+    <div id="game_updates" class="panel_body cntrToggle splittext" style="display:none">
+      <div class="error_message sitemessage cntrError js_news_item_error_message" style="display:none;"></div>
+<ul class="js_news_posts man" id="game_news_posts">
+  <li class="js_feed_item game_news_post mts mbl js_game_post_113606112 game_news_container">
+  <p class="game_news_timestamp h6 h6_alt mbs">May  9, 2013  12:07pm 
+    <a style="display:none;" class="mls js_delete_post_button_113606112 game_news_delete" 
+        onclick="NewsPostBox.deletePost(113606112)">(delete post)</a>
+  </p>
+  <span class="spinner spinner_gray js_delete_post_spinner_113606112" style="display: none;"></span>
+  <div class="game_news_content smltxt-reset">
+    <p>05 May &#8211; 2013 &#8211; New Track+</p>
+<p>The most noticeable thing about this update is the new track, The Great Divide, but there are also a large number of improvements to the game.</p>
+<p>Get your bloon popping sandals on and jump on in.</p>
+  </div>
+</li>
+
+  <li class="js_feed_item game_news_post mts mbl js_game_post_90374449 game_news_container">
+  <p class="game_news_timestamp h6 h6_alt mbs">Feb  7, 2013   9:23pm 
+    <a style="display:none;" class="mls js_delete_post_button_90374449 game_news_delete" 
+        onclick="NewsPostBox.deletePost(90374449)">(delete post)</a>
+  </p>
+  <span class="spinner spinner_gray js_delete_post_spinner_90374449" style="display: none;"></span>
+  <div class="game_news_content smltxt-reset">
+    <p>7 Feb 2013 &#8211; Pro Agent Week</p>
+<p>During this All Pro Week, every Special Agent you place will be upgraded to its Pro version. Pro Special Agents are powered-up and awesomized versions of regular Agents and can blast through any bloon that gets in their way. Release a swarm of bloon seeking bees with the Pro Beekeeper&#8217;s &#8216;Swarm!&#8217; ability and harness the wrath of the Angry Squirrel, as anger mismanagement means he&#8217;ll get super charged with every 20 acorns he throws, regardless if a bloon leaked or not. Bought and placed Agents still count towards upgrading it to Pro.</p>
+  </div>
+</li>
+
+  <li class="js_feed_item game_news_post mts mbl js_game_post_88667792 game_news_container">
+  <p class="game_news_timestamp h6 h6_alt mbs">Feb  6, 2013   4:46pm 
+    <a style="display:none;" class="mls js_delete_post_button_88667792 game_news_delete" 
+        onclick="NewsPostBox.deletePost(88667792)">(delete post)</a>
+  </p>
+  <span class="spinner spinner_gray js_delete_post_spinner_88667792" style="display: none;"></span>
+  <div class="game_news_content smltxt-reset">
+    <p>January 31 2013 &#8211; New Track and November Vault!</p>
+<p>A new Beginner track has been added to BTD5! Brick Wall has a long path that forces the bloons to double back on themselves before leaving the way they came in. <br />
+On top of that, the Daily Challenges from November have been added to the Daily Challenge vault. Test yourself against the various restrictions and earn Monkey Money from each one.</p>
+  </div>
+</li>
+
+  <li class="js_feed_item game_news_post mts mbl js_game_post_85146509 game_news_container">
+  <p class="game_news_timestamp h6 h6_alt mbs">Jan 17, 2013   9:05pm 
+    <a style="display:none;" class="mls js_delete_post_button_85146509 game_news_delete" 
+        onclick="NewsPostBox.deletePost(85146509)">(delete post)</a>
+  </p>
+  <span class="spinner spinner_gray js_delete_post_spinner_85146509" style="display: none;"></span>
+  <div class="game_news_content smltxt-reset">
+    <p>January 17 2013 &#8211; October DC Vault!</p>
+<p>The Daily Challenges from October are now ready to be played, or replayed. Test yourself against the various tower and money restrictions and earn bunches of Monkey Money along the way.</p>
+  </div>
+</li>
+
+  <li class="js_feed_item game_news_post mts mbl js_game_post_72737510 game_news_container">
+  <p class="game_news_timestamp h6 h6_alt mbs">Dec 17, 2012  12:10am 
+    <a style="display:none;" class="mls js_delete_post_button_72737510 game_news_delete" 
+        onclick="NewsPostBox.deletePost(72737510)">(delete post)</a>
+  </p>
+  <span class="spinner spinner_gray js_delete_post_spinner_72737510" style="display: none;"></span>
+  <div class="game_news_content smltxt-reset">
+    <p>December 6 Update – Open House Weekend</p>
+<p>BTD5 is having an Open House! From now till December 10th, there’s no need to buy a Specialty Building, just activate it and have a tonne of extra power at your disposal. It’s the perfect opportunity to try before you buy.</p>
+  </div>
+</li>
+
+</ul>
+
+    </div>
+  </div>
+
+<!-- #game_instructions -->
+<div id="game_instructions_panel" class="collapsible_panel">
+  <p class="panel_handle mvs spritegame closed_link"><a>Instructions</a></p>
+  <div id="game_instructions" class="panel_body cntrToggle splittext smltxt-reset" style="display:none">
+    <div class="show_more_text_block"><div class="truncated_text"><p >Click to select towers and click again to place them.<br />
+<span >SHIFT</span>: place multiple towers of the same type<br />
+&hellip;</p><a class="show_more spritegame" href="#" onclick="    $(this).up(&#x27;.truncated_text&#x27;).hide();
+    $(this).up(&#x27;.show_more_text_block&#x27;).down(&#x27;.full_text&#x27;).show();
+; return false;">show more</a></div><div class="full_text" style="display:none;"><p>Click to select towers and click again to place them.<br />
+<span>SHIFT</span>: place multiple towers of the same type<br />
+Spacebar: send in bloon rounds and toggle fast forward<br />
+Hotkeys: tower mouseovers tell you which hotkeys select which towers<br />
+Green disk: shows whether your most recent progress has been saved; green=all good, orange=trying to save but has not yet been saved so if it doesn&#8217;t update to green soon you should refresh, red=connection lost so refresh.</p>
+<p>Updates &#8211; clear your cache if you aren&#8217;t seeing an update (ie. a new track).</p><a class="show_less spritegame" href="#" onclick="    $(this).up(&#x27;.full_text&#x27;).hide();
+    $(this).up(&#x27;.show_more_text_block&#x27;).down(&#x27;.truncated_text&#x27;).show();
+; return false;">show less</a></div></div>
+  </div>
+</div>
+
+
+                    </script>
+                    <script type="text/html" id="chat_notification_received_private_message">
+                      <p class="whisper received_whisper">
+                        <span class="username chat_message_window_username">#{username}</span><span class="separator">: </span>
+                          <span class="message">
+                            Want to join my private chat room?
+                            <a href='#' class='yes'>Join</a>/<a href='#' class='no'>Ignore</a>
+                          </span>
+                          <span class="clear">
+                        </span>
+                      </p>
+                    </script>
+                    <script type="text/html" id="user_row_template">
+                      <img class="chat_avatar" style="#{avatarStyle}" src="#{avatarSrc}"/>
+                      <span id="#{usernameNodeId}" class="username spritesite levelbug level_#{level}" username="#{username}">#{username}</span>
+                      <span class="#{extraIconClass} rank_icon" title="#{extraIconTitle}">#{extraIconType}</span>
+                      <span class="spritesite premium_icon" title="Kongregate Plus">Kongregate Plus</span>
+                      #{extraIconTags}
+                      <span class="spritesite friend_icon" title="Friend">Friend</span>
+                      <div class="clear"></div>
+                    </script>
+                    <script type="text/html" id="admin_message_template">
+                      <div class="admin_message cntrNotify hasLayout">#{content}</div>
+                      <div class="clear"></div>
+                    </script>
+                    <script id="chat_actions_dropdown_template" type="text/html">
+                      <select class="chat_actions_dropdown">
+                        <option>Chat actions</option>
+                        <option value="leave_private" class="action exclude_game exclude_chat">Leave private chat</option>
+                        <option value="room_chooser" class="action exclude_private">Change chat rooms</option>
+                        <option value="friends_online" class="action">See friends online</option>
+                        <option value="room_details" class="action exclude_game exclude_private">Room info & help</option>
+                        <option value="favorite_room" class="action favorite_room hasLayout exclude_game exclude_private">Favorite this room</option>
+                        <option value="set_status" class="action set_status hasLayout">Set status: Away</option>
+                      </select>
+                    </script>
+                    <script id="signup_tab_pane_template" type="text/html">
+                      <div id="signup_tab_form" class="signup_tab_form hasLayout">
+                        <div id="facebook-connect-wrapper" style="display: none;">
+  <h3 class="fb_signup_title sprite_facebook h2 mts mbm">Welcome to Kongregate</h3>
+<p class="mts mbm">Register now to save your earned badges, chat with other players, and share your progress with your friends.</p>
+<div class="cntrToggle pam fb_signup_cta">
+  <h4 class="h2 mvm fb_signup_header sprite_facebook"><span class="fb_signup_header_text"><span class="sprite_facebook fb_signup_header_icon"></span>Sign up now:</span></h4>
+  <a href="#" class="facebook_signin_large sprite_facebook mvl" onclick="new FacebookAuthenticator({}); return false;" title="Sign in with Facebook">Connect with Facebook</a>
+  <iframe id="facebook-facepile" src="//www.facebook.com/plugins/facepile.php?action&amp;size=medium&amp;max_rows=1&amp;width=249&amp;colorscheme=light&amp;app_id=218282488189771" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:264px;" allowTransparency="true"></iframe>
+  <p class="mts mbl">or <a href="#" id="email-signup-link">Sign Up with Email</a></p>
+</div>
+
+</div>
+<div id="normal-registration-wrapper">
+    </p>
+  <p class="signup_tab_form_submit_error mbs ctnr ctnrError" id="submit_error_message" style="display: none;">
+    We encountered a problem. Please try again.
+  </p>
+  <div class="cntrToggle baseform">
+    
+  </div>
+</div>
+
+                      </div>
+                    </script>
+                    <script type="text/html" id="levelup_content_template">
+                      <div class="hololevel_outer award_banner ptl">
+                        <div class="award_feature">
+                          <h4 class="award_title">Congratulations, #{username}</h4>
+                          <p class="h1 new_level holodeck_kongbot_happy">You&rsquo;re now level #{level}!</p>
+                          <p class="regtext">
+                            <span id="hololevel_next_level_message">
+                              Earn #{points_away} more points to reach level #{next_level}!
+                            </span>
+                            <span id="hololevel_max_level_message" style="display: none;">
+                              Congratulations, you've reached Kongregate's level cap!
+                            </span>
+                          </p>
+                          <span class="stars kong_ico" aria-hidden="true">***</span>
+                        </div>
+                      </div>
+                    </script>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div><!-- flashframecontent -->
+          <div id="kong_bumper_preroll_600x400-ad-slot" style="display: none;"><script type="text/javascript">
+//<![CDATA[
+bumper.attemptBumperEmbed();
+//]]>
+</script><div id="google_ads_iframe_/1019038/ca-pub-2543721856801245/kong_bumper_preroll_600x400_0__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/1019038/ca-pub-2543721856801245/kong_bumper_preroll_600x400_0" name="google_ads_iframe_/1019038/ca-pub-2543721856801245/kong_bumper_preroll_600x400_0" width="600" height="400" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" src="javascript:&quot;<html><body style='background:transparent'></body></html>&quot;" style="border: 0px; vertical-align: bottom;"></iframe></div><iframe id="google_ads_iframe_/1019038/ca-pub-2543721856801245/kong_bumper_preroll_600x400_0__hidden__" name="google_ads_iframe_/1019038/ca-pub-2543721856801245/kong_bumper_preroll_600x400_0__hidden__" width="0" height="0" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" src="javascript:&quot;<html><body style='background:transparent'></body></html>&quot;" style="border: 0px; vertical-align: bottom; visibility: hidden; display: none;"></iframe></div>
+          <script type="text/html" id="ad_premium_header_template">
+            <a href="#" onclick="lightbox.prototype.initializePremiumMembershipPurchase('preroll', 'ad_free_tab'); return false;" class="phm pvs">
+            Tired of ads on Kongregate? You can now be <strong>Ad-Free</strong>! <span class='learn_more'>Learn more about <span class="kplus_logo">KONG PLUS</span> &raquo;</span></a>
+          </script>
+        </div>
+  
+
+
+
+<script>
+    // Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+      overlayBg.style.display = "none";
+      mySidebar.style.display = 'none';
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}</script>
+ </body>  
+
+</html>
+
+
+
+
