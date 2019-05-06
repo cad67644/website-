@@ -1,0 +1,186 @@
+{
+	"whiteandnerdy": {
+		"isComplete": true,
+		"link": "https://www.youtube.com/watch?v=N9qYF9DZPdw",
+		"isBlocked": true,
+		"iframe": "<iframe width=\"\" height=\"\" src=\"https://www.youtube.com/embed/N9qYF9DZPdw\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+	},
+	"eatit": {
+		"isComplete": true,
+		"link": "https://www.youtube.com/watch?v=ZcJjMnHoIBI",
+		"isBlocked": false,
+		"iframe": "<iframe width=\"\" height=\"\" src=\"https://www.youtube.com/embed/ZcJjMnHoIBI\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+
+	},
+	"smellslikenirvana": {
+		"isComplete": true,
+		"link": "https://www.youtube.com/watch?v=FklUAoZ6KxY",
+		"isBlocked": true,
+		"iframe": "<iframe width=\"\" height=\"\" src=\"https://www.youtube.com/embed/FklUAoZ6KxY\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+	},
+	"wordcrimes": {
+		"isComplete": true,
+		"isBlocked": false,
+		"link": "https://www.youtube.com/watch?v=8Gv0H-vPoDc",
+		"iframe": "<iframe width=\"\" height=\"\" src=\"https://www.youtube.com/embed/8Gv0H-vPoDc\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+	},
+	"likeasurgeon": {
+		"isComplete": true,
+		"link": "https://www.youtube.com/watch?v=notKtAgfwDA",
+		"isBlocked": true,
+		"iframe": "<iframe width=\"\" height=\"\" src=\"https://www.youtube.com/embed/notKtAgfwDA\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+
+	},
+	"amishparadise": {
+		"isComplete": true,
+		"link": "https://www.youtube.com/watch?v=lOfZLb33uCg",
+		"isBlocked": false,
+		"iframe": "<iframe width=\"\" height=\"\" src=\"https://www.youtube.com/embed/lOfZLb33uCg\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+
+
+
+	},
+	"thesagabegins": {
+		"isComplete": true,
+		"link": "https://www.youtube.com/watch?v=hEcjgJSqSRU",
+		"isBlocked": false,
+		"iframe": "<iframe width=\"\" height=\"\" src=\"https://www.youtube.com/embed/hEcjgJSqSRU\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+	},
+	"fat": {
+		"isComplete": true,
+		"link": "https://www.youtube.com/watch?v=t2mU6USTBRE",
+		"isBlocked": false,
+		"iframe": "<iframe width=\"\" height=\"\" src=\"https://www.youtube.com/embed/t2mU6USTBRE\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+
+
+
+	},
+	"tacky": {
+		"isComplete": true,
+		"link": "https://www.youtube.com/watch?v=zq7Eki5EZ8o",
+		"isBlocked": false,
+		"iframe": "<iframe width=\"\" height=\"\" src=\"https://www.youtube.com/embed/zq7Eki5EZ8o\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+	},
+	"iloverockyroad": {
+
+		"isComplete": true,
+		"link": "https://www.youtube.com/watch?v=beTsDOBRs8I",
+		"isBlocked": false,
+		"iframe": "<iframe width=\"\" height=\"\" src=\"https://www.youtube.com/embed/beTsDOBRs8I\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+	},
+	"mybologna": {
+		"isComplete": true,
+		"link": "https://www.youtube.com/watch?v=C4_G7HHJ0GE",
+		"isBlocked": false,
+		"iframe": "<iframe width=\"\" height=\"\" src=\"https://www.youtube.com/embed/C4_G7HHJ0GE\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+	},
+	"iperformthisway": {
+
+		"isComplete": true,
+		"link": "https://www.youtube.com/watch?v=ss_BmTGv43M",
+		"isBlocked": true,
+		"iframe": "<iframe width=\"\" height=\"\" src=\"https://www.youtube.com/embed/ss_BmTGv43M\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+
+	},
+	"partyinthecia": {
+		"isComplete": true,
+		"link": "https://www.youtube.com/watch?v=C-CG5w4YwOI",
+		"isBlocked": true,
+		"iframe": "<iframe width=\"\" height=\"\" src=\"https://www.youtube.com/embed/C-CG5w4YwOI\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+
+	},
+	"itsallaboutpentiums": {
+		"isComplete": true,
+		"link": "https://www.youtube.com/watch?v=qpMvS1Q1sos",
+		"isBlocked": null,
+		"iframe": "<iframe width=\"\" height=\"\" src=\"https://www.youtube.com/embed/qpMvS1Q1sos\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+
+	},
+	"gump": {
+		"isComplete": true,
+		"link": "https://www.youtube.com/watch?v=hQwWaWFjd0Y",
+		"isBlocked": null,
+		"iframe": "<iframe width=\"\" height=\"\" src=\"https://www.youtube.com/embed/hQwWaWFjd0Y\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+	},
+	"foil": {
+		"isComplete": true,
+		"link": "https://www.youtube.com/watch?v=urglg3WimHA",
+		"isBlocked": null,
+		"iframe": "<iframe width=\"\" height=\"\" src=\"https://www.youtube.com/embed/urglg3WimHA\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+	},
+	"daretobestupid": {
+		"isComplete": true,
+		"link": "https://www.youtube.com/watch?v=SMhwddNQSWQ",
+		"isBlocked": null,
+		"iframe": "<iframe width=\"\" height=\"\" src=\"https://www.youtube.com/embed/SMhwddNQSWQ\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+
+	},
+	"yoda": {
+		"isComplete": true,
+		"link": "https://www.youtube.com/watch?v=FOPsfaQRcbk",
+		"isBlocked": null,
+		"iframe": "<iframe width=\"\" height=\"\" src=\"https://www.youtube.com/embed/FOPsfaQRcbk\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+	},
+	"livingwithahernia": {
+		"isComplete": true,
+		"link": "https://www.youtube.com/watch?v=X8Ow1nlafOg",
+		"isBlocked": null,
+		"iframe": "<iframe width=\"\" height=\"\" src=\"https://www.youtube.com/embed/X8Ow1nlafOg\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+	},
+	"moneyfornothing/beverlyhillbillies": {
+		"isComplete": true,
+		"link": "https://www.youtube.com/watch?v=0WPzFnZkZmI",
+		"isBlocked": null,
+		"iframe": "<iframe width=\"\" height=\"\" src=\"https://www.youtube.com/embed/0WPzFnZkZmI\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+	},
+	"christmasatgroundzero": {
+		"isComplete": true,
+		"link": "https://www.youtube.com/watch?v=t039p6xqutU",
+		"isBlocked": null,
+		"iframe": "<iframe width=\"\" height=\"\" src=\"https://www.youtube.com/embed/t039p6xqutU\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+
+	},
+	"whateveryoulike": {
+		"isComplete": true,
+		"link": "https://www.youtube.com/watch?v=otGO0a7OPtg",
+		"isBlocked": null,
+		"iframe": "<iframe width=\"\" height=\"\" src=\"https://www.youtube.com/embed/otGO0a7OPtg\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+	},
+	"bedrockanthem": {
+		"isComplete": true,
+		"link": "https://www.youtube.com/watch?v=BtV_nQKhkdY",
+		"isBlocked": null,
+		"iframe": "<iframe width=\"\" height=\"\" src=\"https://www.youtube.com/embed/BtV_nQKhkdY\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+	},
+	"ebay": {
+		"isComplete": true,
+		"link": "https://www.youtube.com/watch?v=YKtlK7sn0JQ",
+		"isBlocked": null,
+		"iframe": "<iframe width=\"\" height=\"\" src=\"https://www.youtube.com/embed/YKtlK7sn0JQ\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+	},
+	"thenightsantawentcrazy": {
+		"isComplete": true,
+		"link": "https://www.youtube.com/watch?v=Tb-Mce9VpmY",
+		"isBlocked": null,
+		"iframe": "<iframe width=\"\" height=\"\" src=\"https://www.youtube.com/embed/Tb-Mce9VpmY\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+	},
+	"canadianidiot": {
+		"isComplete": true,
+		"link": "https://www.youtube.com/watch?v=C_TfBbR6L0M",
+		"isBlocked": null,
+		"iframe": "<iframe width=\"\" height=\"\" src=\"https://www.youtube.com/embed/C_TfBbR6L0M\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+	},
+	"dontdownloadthissong": {
+		"isComplete": true,
+		"link": "https://www.youtube.com/watch?v=zGM8PT1eAvY",
+		"isBlocked": null,
+		"iframe": "<iframe width=\"\" height=\"\" src=\"https://www.youtube.com/embed/zGM8PT1eAvY\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+
+	},
+	"prettyflyforarabbi": {
+		"isComplete": true,
+		"link": "  https://www.youtube.com/watch?v=c1zktTCVrDs",
+		"isBlocked": null,
+		"iframe": "<iframe width=\"\" height=\"\" src=\"https://www.youtube.com/embed/c1zktTCVrDs\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+	}
+}
